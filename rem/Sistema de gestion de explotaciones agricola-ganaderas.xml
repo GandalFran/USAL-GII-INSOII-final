@@ -285,7 +285,7 @@ Objetivos del sistema</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0005 STK-0004 STK-0001 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0005 STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -777,7 +777,7 @@ Administrador</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0005 STK-0004 STK-0001 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0005 STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -796,7 +796,7 @@ Comercial</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0005 STK-0004 STK-0001 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0005 STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -851,7 +851,7 @@ Requisitos de producto</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -870,7 +870,7 @@ Requisitos de usabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -894,7 +894,7 @@ Requisitos de fiabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -918,7 +918,7 @@ Requisitos de rendimiento</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -942,7 +942,7 @@ Requisitos de portabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -967,7 +967,7 @@ Requisitos de organización</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -986,7 +986,7 @@ Requisitos de estándares</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1011,7 +1011,7 @@ Requisitos externos</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1030,7 +1030,7 @@ Requisitos de privacidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1054,7 +1054,7 @@ Requisitos de seguridad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2308,6 +2308,600 @@ Gestion de usuarios</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.5.3 </rem:number>
+<rem:useCase
+ oid = "UC-0041">
+<rem:name>
+Dar alta empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el botón &quot;Dar alta empleado&quot;.</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Se ha dado de alta a un nuevo empleado.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0049">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un formulario con los datos a rellenar.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0050">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+rellena los datos del empleado solicitados.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0051">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda la información introducida en el formulario.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0052">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el proceso de guardado se ha realizado con éxito.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0042">
+<rem:name>
+Dar baja empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el botón &quot;Dar baja empleado&quot; sobre el empleado seleccionado.</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+El empleado seleccionado ha sido borrado del sistema.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0058">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0044"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0054">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje pidiendo confirmación para eliminar el empleado seleccionado.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0055">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona una de las opciones propuestas por el sistema.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0056">
+<rem:number>4</rem:number>
+<rem:condition>
+se selecciona &quot;Sí&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+ el sistema procede a eliminar al empleado seleccionado.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0057">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el proceso de eliminado se ha realizado con éxito.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0043">
+<rem:name>
+Modificar empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el botón &quot;Modificar empleado&quot; sobre uno previamente seleccionado.</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+La información del empleado seleccionado ha sido modificada.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0059">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0044"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0060">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un formulario con los datos del empleado seleccionado.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0061">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+puede modificar o dejar igual los datos del empleado seleccionado.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0062">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el proceso de modificado se ha realizado con éxito.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0044">
+<rem:name>
+Buscar empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0045">
+<rem:name>
+Ver detalles empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0046">
+<rem:name>
+Dar alta tratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0047">
+<rem:name>
+Dar baja tratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0048">
+<rem:name>
+Modificar tratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0049">
+<rem:name>
+Buscar tratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0050">
+<rem:name>
+Ver detalles tratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0051">
+<rem:name>
+Añadir proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0052">
+<rem:name>
+Eliminar proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0053">
+<rem:name>
+Modificar proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
 </rem:section>
 <rem:section
  oid = "SEC-0031">
@@ -2326,6 +2920,279 @@ Gestion de compra-venta</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.5.4 </rem:number>
+<rem:useCase
+ oid = "UC-0034">
+<rem:name>
+Vender cabeza ganado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0035">
+<rem:name>
+Buscar cabeza ganado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0036">
+<rem:name>
+Generar factura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0037">
+<rem:name>
+Comprar pienso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0038">
+<rem:name>
+Listar proveedores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0039">
+<rem:name>
+Ver detalles proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0040">
+<rem:name>
+Ver detalles cabeza ganado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
 </rem:section>
 </rem:section>
 <rem:section
@@ -2393,22 +3260,22 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
@@ -2476,9 +3343,9 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0004">
+ oid = "PVT-0006">
 <rem:name>
-String</rem:name>
+Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2489,9 +3356,9 @@ String</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type</rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Alphanumeric strings</rem:description>
+Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -2518,9 +3385,9 @@ Dates</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
+ oid = "PVT-0004">
 <rem:name>
-Time</rem:name>
+String</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2531,32 +3398,32 @@ Time</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-Hour:minutes:seconds</rem:description>
+Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -2570,106 +3437,28 @@ Hour:minutes:seconds</rem:description>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
+<rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
+</rem:defectStatusValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
@@ -2684,44 +3473,122 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
@@ -2729,59 +3596,59 @@ Hour:minutes:seconds</rem:description>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
