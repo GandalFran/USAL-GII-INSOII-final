@@ -1596,7 +1596,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el boton "Añadir tipo de semilla".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0015">
+           [UC-0015]
+           
+Buscar tipoSemilla</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -1705,12 +1709,12 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0014" />
+<a name="UC-0020" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0014</th>
+<th align="left" valign="top">UC-0020</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Eliminar tipoSemilla</th>
+Alta tipoCultivo</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1753,175 +1757,12 @@ Davinia Carolina Zato Dominguez</a>
 
     caso de uso cuando
 <em>
-el usuario pulsa el boton "Eliminar" sobre un tipo de semilla seleccionado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-El tipo de semilla seleccionado esta guardado en el sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0016" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje pidiendo confirmacion para eliminar el tipo de semilla seleccionado.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0018" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
-    </a>
-<em>
-selecciona una de las opciones propuestas por el sistema.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0019" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion de "Si",
-                                </em>el
-     
-    sistema<em>
-procede a eliminar el tipo de semilla seleccionado.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0021" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-El tipo de semilla seleccionado ha sido borrado del sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STX-0003" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion "No",
-                            </em>el
-     
-    sistema<em>
-muestra un mensaje indicando que el tipo de semilla seleccionado NO sera eliminado</em>,
-                            a continuación este caso de uso
-                             
-                            <em>queda sin efecto</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0015" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0015</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Buscar tipoSemilla</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
+el usuario pulsa el boton "Añadir tipo de cultivo".</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0022">
+           [UC-0022]
+           
+Buscar tipoCultivo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -1929,22 +1770,51 @@ Davinia Carolina Zato Dominguez</a>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STP-0005" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos a rellenar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0006" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos solicitados.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0007" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+guarda la informacion introducida en el formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0014" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de guardado se ha realizado con exito.</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario los tipos de semillas disponibles.</td>
+Se ha añadido un nuevo tipo de cultivo.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2001,12 +1871,12 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0016" />
+<a name="UC-0027" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0016</th>
+<th align="left" valign="top">UC-0027</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Modificar tipoSemilla</th>
+Alta tipoProducto</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -2049,8 +1919,12 @@ Davinia Carolina Zato Dominguez</a>
 
     caso de uso cuando
 <em>
-el usuario pulsa el boton "Modificar" sobre un tipo de semilla seleccionado.</em>
-</td>
+el usuario pulsa el boton "Añadir tipo producto".</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0029">
+           [UC-0029]
+           
+Buscar tipoProducto</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -2063,46 +1937,46 @@ el usuario pulsa el boton "Modificar" sobre un tipo de semilla seleccionado.</em
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0037" />
+<a name="STP-0008" />
 <td align="center" valign="top">1</td>
 <td>El
      
     sistema<em>
-muestra un formulario con los datos disponibles para que sean modificados.</em>
+muestra un formulario con los datos a rellenar.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0038" />
+<a name="STP-0009" />
 <td align="center" valign="top">2</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
 Administrador (ACT-0001)
     </a>
 <em>
-cambia los datos.</em>
+rellena los datos solicitados.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0039" />
+<a name="STP-0010" />
 <td align="center" valign="top">3</td>
 <td>El
      
     sistema<em>
-actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
+guarda la informacion introducida en el formulario.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0040" />
+<a name="STP-0013" />
 <td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
-muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
+muestra un mensaje indicando que el proceso de guardado se ha realizado con exito.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-La informacion sobre el tipo de semilla ha sido modificada.</td>
+Se ha añadido un nuevo tipo de producto.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2216,440 +2090,26 @@ el usuario pulsa el boton "Añadir semilla".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se ha añadido una nueva semilla.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0018" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0018</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Eliminar semilla</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Eliminar" sobre una semilla seleccionada.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-La semilla seleccionada esta guardada en el sistema.
-<br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0030" />
+<a name="STP-0157" />
 <td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje pidiendo confirmacion para eliminar la semilla seleccionada.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0031" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0015">
+Buscar tipoSemilla
+        (UC-0015)
     </a>
-<em>
-selecciona una de las opciones propuestas por el sistema.</em>
-</td>
+                                (<em>
+este paso se realiza para que el usuario escoga el tipo de semilla</em>)
+                            </td>
 </tr>
 <tr>
-<a name="STP-0032" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion de "Si",
-                                </em>el
-     
-    sistema<em>
-procede a eliminar la semilla seleccionada.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0033" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-La semilla seleccionada ha sido borrada del sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STX-0007" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion "No",
-                            </em>el
-     
-    sistema<em>
-muestra un mensaje indicando que la semilla seleccionada NO sera eliminada</em>,
-                            a continuación este caso de uso
-                             
-                            <em>queda sin efecto</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0019" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0019</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Buscar semilla</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario las semillas disponibles.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0020" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0020</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Alta tipoCultivo</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Añadir tipo de cultivo".</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0005" />
-<td align="center" valign="top">1</td>
+<a name="STP-0160" />
+<td align="center" valign="top">2</td>
 <td>El
      
     sistema<em>
@@ -2657,8 +2117,8 @@ muestra un formulario con los datos a rellenar.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0006" />
-<td align="center" valign="top">2</td>
+<a name="STP-0161" />
+<td align="center" valign="top">3</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
 Administrador (ACT-0001)
     </a>
@@ -2667,8 +2127,8 @@ rellena los datos solicitados.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0007" />
-<td align="center" valign="top">3</td>
+<a name="STP-0162" />
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -2676,8 +2136,8 @@ guarda la informacion introducida en el formulario.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0014" />
-<td align="center" valign="top">4</td>
+<a name="STP-0163" />
+<td align="center" valign="top">5</td>
 <td>El
      
     sistema<em>
@@ -2687,463 +2147,7 @@ muestra un mensaje indicando que el proceso de guardado se ha realizado con exit
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se ha añadido un nuevo tipo de cultivo.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0021" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0021</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Eliminar tipoCultivo</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-El usuario pulsa el boton "Eliminar" sobre un tipo de cultivo seleccionado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-El tipo de cultivo seleccionado esta guardado en el sistema.
-<br />
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0022" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje pidiendo confirmacion para eliminar el tipo de cultivo seleccionado.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0023" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
-    </a>
-<em>
-selecciona una de las opciones propuestas por el sistema.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0024" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion de "Si",
-                                </em>el
-     
-    sistema<em>
-procede a eliminar el tipo de cultivo seleccionado.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0025" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-El tipo de cultivo seleccionado ha sido borrado del sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STX-0004" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se selecciona la opcion "No",
-                            </em>el
-     
-    sistema<em>
-muestra un mensaje indicando que el tipo de cultivo seleccionado NO sera eliminado</em>,
-                            a continuación este caso de uso
-                             
-                            <em>queda sin efecto</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0022" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0022</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Buscar tipoCultivo</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario los tipos de cultivos disponibles.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0023" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0023</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Modificar tipoCultivo</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Modificar" sobre un tipo de cultivo seleccionado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0041" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra un formulario con los datos disponibles para que sean modificados.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0042" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
-    </a>
-<em>
-cambia los datos.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0043" />
-<td align="center" valign="top">3</td>
-<td>El
-     
-    sistema<em>
-actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0044" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-La informacion sobre el tipo de cultivo ha sido modificada.</td>
+Se ha añadido una nueva semilla.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3329,12 +2333,12 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0025" />
+<a name="UC-0031" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0025</th>
+<th align="left" valign="top">UC-0031</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Eliminar cultivo</th>
+Alta producto</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -3377,137 +2381,7 @@ Davinia Carolina Zato Dominguez</a>
 
     caso de uso cuando
 <em>
-el usuario pulsa el boton "Eliminar" sobre un cultivo seleccionado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-El cultivo seleccionado esta guardado en el sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-El cultivo seleccionado ha sido borrado del sistema.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0026" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0026</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Buscar cultivo</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-<font color="red"><b>PD</b></font>
-</em>
+el usuario pulsa el boton "Añadir nuevo producto".</em>
 </td>
 </tr>
 <tr>
@@ -3516,142 +2390,26 @@ Davinia Carolina Zato Dominguez</a>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario los cultivos disponibles.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0027" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0027</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Alta tipoProducto</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Añadir tipo producto".</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0008" />
+<a name="STP-0164" />
 <td align="center" valign="top">1</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0029">
+Buscar tipoProducto
+        (UC-0029)
+    </a>
+                                (<em>
+este paso se realiza para que el usuario escoga el tipo de producto</em>)
+                            </td>
+</tr>
+<tr>
+<a name="STP-0165" />
+<td align="center" valign="top">2</td>
 <td>El
      
     sistema<em>
@@ -3659,8 +2417,8 @@ muestra un formulario con los datos a rellenar.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0009" />
-<td align="center" valign="top">2</td>
+<a name="STP-0166" />
+<td align="center" valign="top">3</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
 Administrador (ACT-0001)
     </a>
@@ -3669,8 +2427,8 @@ rellena los datos solicitados.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0010" />
-<td align="center" valign="top">3</td>
+<a name="STP-0167" />
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
@@ -3678,8 +2436,8 @@ guarda la informacion introducida en el formulario.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0013" />
-<td align="center" valign="top">4</td>
+<a name="STP-0168" />
+<td align="center" valign="top">5</td>
 <td>El
      
     sistema<em>
@@ -3689,7 +2447,7 @@ muestra un mensaje indicando que el proceso de guardado se ha realizado con exit
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se ha añadido un nuevo tipo de producto.</td>
+Se ha añadido un nuevo producto.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3703,6 +2461,342 @@ Se ha añadido un nuevo tipo de producto.</td>
 <td>
                         -
                     </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0014</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar tipoSemilla</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0015">
+           [UC-0015]
+           
+Buscar tipoSemilla</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El tipo de semilla seleccionado esta guardado en el sistema.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0016" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje pidiendo confirmacion para eliminar el tipo de semilla seleccionado.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0018" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+selecciona una de las opciones propuestas por el sistema.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0019" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se selecciona la opcion de "Si",
+                                </em>el
+     
+    sistema<em>
+procede a eliminar el tipo de semilla seleccionado.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0021" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+El tipo de semilla seleccionado ha sido borrado del sistema.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0003" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se selecciona la opcion "No",
+                            </em>el
+     
+    sistema<em>
+muestra un mensaje indicando que el tipo de semilla seleccionado NO sera eliminado</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0021" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0021</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar tipoCultivo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0022">
+           [UC-0022]
+           
+Buscar tipoCultivo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El tipo de cultivo seleccionado esta guardado en el sistema.
+<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0022" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje pidiendo confirmacion para eliminar el tipo de cultivo seleccionado.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0023" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+selecciona una de las opciones propuestas por el sistema.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0024" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se selecciona la opcion de "Si",
+                                </em>el
+     
+    sistema<em>
+procede a eliminar el tipo de cultivo seleccionado.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0025" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+El tipo de cultivo seleccionado ha sido borrado del sistema.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0004" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se selecciona la opcion "No",
+                            </em>el
+     
+    sistema<em>
+muestra un mensaje indicando que el tipo de cultivo seleccionado NO sera eliminado</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -3792,10 +2886,11 @@ Davinia Carolina Zato Dominguez</a>
 <td colspan="2">
     El sistema deberá comportarse tal como se describe en el siguiente
 
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Eliminar" sobre un tipo de producto seleccionado.</em>
-</td>
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0029">
+           [UC-0029]
+           
+Buscar tipoProducto</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -3912,12 +3007,12 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0029" />
+<a name="UC-0018" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0029</th>
+<th align="left" valign="top">UC-0018</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Buscar tipoProducto</th>
+Eliminar semilla</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -3958,145 +3053,18 @@ Davinia Carolina Zato Dominguez</a>
 <td colspan="2">
     El sistema deberá comportarse tal como se describe en el siguiente
 
-    caso de uso cuando
-<em>
-<font color="red"><b>PD</b></font>
-</em>
-</td>
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0019">
+           [UC-0019]
+           
+Buscar semilla</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario los tipos de producto disponibles.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0030" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0030</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Modificar tipoProducto</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 17/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0003">
-Francisco Pinto Santos</a>
+La semilla seleccionada esta guardada en el sistema.
 <br />
-</li>
-</ul>
 </td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Modificar" sobre un tipo de producto seleccionado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="5">Secuencia normal</th>
@@ -4104,46 +3072,48 @@ el usuario pulsa el boton "Modificar" sobre un tipo de producto seleccionado.</e
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0045" />
+<a name="STP-0030" />
 <td align="center" valign="top">1</td>
 <td>El
      
     sistema<em>
-muestra un formulario con los datos disponibles para que sean modificados.</em>
+muestra un mensaje pidiendo confirmacion para eliminar la semilla seleccionada.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0046" />
+<a name="STP-0031" />
 <td align="center" valign="top">2</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
 Administrador (ACT-0001)
     </a>
 <em>
-cambia los datos.</em>
+selecciona una de las opciones propuestas por el sistema.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0047" />
+<a name="STP-0032" />
 <td align="center" valign="top">3</td>
-<td>El
+<td>Si<em>
+se selecciona la opcion de "Si",
+                                </em>el
      
     sistema<em>
-actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
+procede a eliminar la semilla seleccionada.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0048" />
+<a name="STP-0033" />
 <td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
-muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
+muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-La informacion sobre el tipo de producto ha sido modificada.</td>
+La semilla seleccionada ha sido borrada del sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4151,12 +3121,18 @@ La informacion sobre el tipo de producto ha sido modificada.</td>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STX-0007" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se selecciona la opcion "No",
+                            </em>el
+     
+    sistema<em>
+muestra un mensaje indicando que la semilla seleccionada NO sera eliminada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -4200,12 +3176,12 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0031" />
+<a name="UC-0025" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0031</th>
+<th align="left" valign="top">UC-0025</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Alta producto</th>
+Eliminar cultivo</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -4246,15 +3222,16 @@ Davinia Carolina Zato Dominguez</a>
 <td colspan="2">
     El sistema deberá comportarse tal como se describe en el siguiente
 
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Añadir nuevo producto".</em>
-</td>
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0026">
+           [UC-0026]
+           
+Buscar cultivo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
--</td>
+El cultivo seleccionado esta guardado en el sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Secuencia normal</th>
@@ -4272,7 +3249,7 @@ el usuario pulsa el boton "Añadir nuevo producto".</em>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se ha añadido un nuevo producto.</td>
+El cultivo seleccionado ha sido borrado del sistema.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4375,10 +3352,11 @@ Davinia Carolina Zato Dominguez</a>
 <td colspan="2">
     El sistema deberá comportarse tal como se describe en el siguiente
 
-    caso de uso cuando
-<em>
-el usuario pulsa el boton "Eliminar" sobre un producto seleccionado.</em>
-</td>
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0033">
+           [UC-0033]
+           
+Buscar producto</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -4402,6 +3380,991 @@ El producto seleccionado esta guardado en el sistema.</td>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
 El producto seleccionado ha sido borrado del sistema.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0015</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar tipoSemilla</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0017">
+           [UC-0017]
+           
+Alta semilla</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0114" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre tipos de semilla y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0115" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0116" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0118" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0117" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0145" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre un tipo de semilla de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0014">
+Eliminar tipoSemilla
+        (UC-0014)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0146" />
+<td align="center" valign="top">7</td>
+<td>Si<em>
+se pulsa el boton "Modificar" sobre un tipo de semilla de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0016">
+Modificar tipoSemilla
+        (UC-0016)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0169" />
+<td align="center" valign="top">8</td>
+<td>Si<em>
+se pulsa el boton "Añadir",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0013">
+Alta tipoSemilla
+        (UC-0013)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario los tipos de semillas disponibles.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0022" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0022</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar tipoCultivo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0120" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre tipos de cultivo y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0121" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0122" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0123" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0124" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0147" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre un tipo de cultivo de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0021">
+Eliminar tipoCultivo
+        (UC-0021)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0148" />
+<td align="center" valign="top">7</td>
+<td>Si<em>
+se pulsa el boton "Modificar" sobre un tipo de cultivo de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0023">
+Modificar tipoCultivo
+        (UC-0023)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0171" />
+<td align="center" valign="top">8</td>
+<td>Si<em>
+se pulsa el boton "Añadir",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0020">
+Alta tipoCultivo
+        (UC-0020)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario los tipos de cultivos disponibles.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0029" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0029</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar tipoProducto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0031">
+           [UC-0031]
+           
+Alta producto</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0125" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre tipos de producto y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0126" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0127" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0128" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0129" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0149" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre un tipo de producto de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0028">
+Eliminiar tipoProducto
+        (UC-0028)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0150" />
+<td align="center" valign="top">7</td>
+<td>Si<em>
+se pulsa el boton "Modificar" sobre un tipo de producto de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0030">
+Modificar tipoProducto
+        (UC-0030)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0170" />
+<td align="center" valign="top">8</td>
+<td>Si<em>
+se pulsa el boton "Añadir",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0027">
+Alta tipoProducto
+        (UC-0027)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario los tipos de producto disponibles.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0019</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar semilla</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0130" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre semillas y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0131" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0132" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0133" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0134" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0151" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre una semilla de las listadas,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0018">
+Eliminar semilla
+        (UC-0018)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario las semillas disponibles.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0026" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0026</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar cultivo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0135" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre cultivos y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0136" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0137" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0138" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0139" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0153" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre un cultivo de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0025">
+Eliminar cultivo
+        (UC-0025)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario los cultivos disponibles.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -4516,7 +4479,76 @@ Davinia Carolina Zato Dominguez</a>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0140" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+recupera toda la informacion sobre productos y la ordena.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0141" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0142" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0143" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el boton "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0144" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0155" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el boton "Eliminar" sobre un producto de los listados,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0032">
+Eliminar producto
+        (UC-0032)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se le ha mostrado al usuario los productos disponibles.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -4529,9 +4561,468 @@ Davinia Carolina Zato Dominguez</a>
                     </td>
 </tr>
 <tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0016" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0016</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Modificar tipoSemilla</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0015">
+           [UC-0015]
+           
+Buscar tipoSemilla</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0037" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos disponibles para que sean modificados.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0038" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+cambia los datos.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0039" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0040" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
+</td>
+</tr>
+<tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Se le ha mostrado al usuario los productos disponibles.</td>
+La informacion sobre el tipo de semilla ha sido modificada.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0023" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0023</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Modificar tipoCultivo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0022">
+           [UC-0022]
+           
+Buscar tipoCultivo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0041" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos disponibles para que sean modificados.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0042" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+cambia los datos.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0043" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0044" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+La informacion sobre el tipo de cultivo ha sido modificada.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0030" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0030</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Modificar tipoProducto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 17/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Francisco Pinto Santos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0029">
+           [UC-0029]
+           
+Buscar tipoProducto</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0045" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos disponibles para que sean modificados.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0046" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+cambia los datos.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0047" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+actualiza la informacion que tiene guardada con lo introducido en el formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0048" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de modificado se ha realizado con exito.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+La informacion sobre el tipo de producto ha sido modificada.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
