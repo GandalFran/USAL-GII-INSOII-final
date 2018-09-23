@@ -285,7 +285,7 @@ Objetivos del sistema</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0004 STK-0003 STK-0005 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0005 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -600,6 +600,25 @@ Maquinaria</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.1.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0001">
+<rem:name>
+Paquete maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0020">
@@ -618,6 +637,25 @@ Trabajos</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.1.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0002">
+<rem:name>
+Paquete trabajos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0021">
@@ -636,6 +674,25 @@ Silos</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.1.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0003">
+<rem:name>
+Paquete silos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0022">
@@ -654,6 +711,25 @@ Terrenos</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.1.4 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0004">
+<rem:name>
+Paquete terrenos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 <rem:section
@@ -690,6 +766,25 @@ Cultivos</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.2.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0005">
+<rem:name>
+Paquete  cultivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0025">
@@ -708,6 +803,25 @@ Ganado</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>3.1.2.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0006">
+<rem:name>
+Paquete ganado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 <rem:section
@@ -727,6 +841,25 @@ Gestion de usuarios</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.1.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0007">
+<rem:name>
+Paquete gestion de usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0027">
@@ -745,6 +878,25 @@ Gestion de compra-venta</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.1.4 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0008">
+<rem:name>
+Paquete gestion de compra-venta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 <rem:section
@@ -777,7 +929,7 @@ Administrador</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0004 STK-0003 STK-0005 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0005 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -796,12 +948,50 @@ Comercial</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0004 STK-0003 STK-0005 "/>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0005 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:actorRole>empleado que se dedica a realizar labores de compra-venta</rem:actorRole>
 </rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+&lt;&lt;timer&gt;&gt; Temporizador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0003 STK-0004 STK-0005 STK-0001 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>un temporizador que desencadenará una acción en el sistema tras un periodo de tiempo.</rem:actorRole>
+</rem:actor>
+<rem:graphicFile
+ oid = "GRF-0009">
+<rem:name>
+Diagrama de actores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
@@ -851,7 +1041,7 @@ Requisitos de producto</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -870,7 +1060,7 @@ Requisitos de usabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -894,7 +1084,7 @@ Requisitos de fiabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -918,7 +1108,7 @@ Requisitos de rendimiento</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -942,7 +1132,7 @@ Requisitos de portabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -967,7 +1157,7 @@ Requisitos de organización</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -986,7 +1176,7 @@ Requisitos de estándares</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1011,7 +1201,7 @@ Requisitos externos</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1030,7 +1220,7 @@ Requisitos de privacidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1054,7 +1244,7 @@ Requisitos de seguridad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1229,6 +1419,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 el usuario pulsa el boton &quot;Añadir tipo de semilla&quot;.</rem:triggeringEvent>
 <rem:precondition>
@@ -1296,6 +1487,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 el usuario pulsa el boton &quot;Añadir tipo de cultivo&quot;.</rem:triggeringEvent>
 <rem:precondition>
@@ -1363,6 +1555,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 el usuario pulsa el boton &quot;Añadir tipo producto&quot;.</rem:triggeringEvent>
 <rem:precondition>
@@ -1431,7 +1624,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-el usuario pulsa el boton &quot;Añadir semilla&quot;.</rem:triggeringEvent>
+el usuario pulsa el boton &quot;Añadir semilla&quot;</rem:triggeringEvent>
 <rem:precondition>
 -</rem:precondition>
 <rem:postcondition>
@@ -1441,7 +1634,7 @@ Se ha añadido una nueva semilla.</rem:postcondition>
 </rem:frequency>
 <rem:step oid = "STP-0157">
 <rem:number>1</rem:number>
-<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+<rem:useCaseAction useCase = "UC-0058"/><rem:comments>
 este paso se realiza para que el usuario escoga el tipo de semilla</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0160">
@@ -1502,6 +1695,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 el usuario pulsa el boton &quot;Añadir cultivo&quot;.</rem:triggeringEvent>
 <rem:precondition>
@@ -1511,6 +1705,52 @@ Se ha añadido un nuevo cultivo,</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
+<rem:step oid = "STP-0196">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0068"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0190">
+<rem:number>2</rem:number>
+<rem:useCaseAction useCase = "UC-0059"/><rem:comments>
+este paso se realiza para que el usuario escoga el tipo de cultivo</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0191">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un formulario con los datos a rellenar.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0192">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+rellena los datos solicitados.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0193">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda la informacion introducida en el formulario.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0194">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el proceso de guardado se ha realizado con exito.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 <rem:useCase
  oid = "UC-0031">
@@ -1533,6 +1773,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 el usuario pulsa el boton &quot;Añadir nuevo producto&quot;.</rem:triggeringEvent>
 <rem:precondition>
@@ -1544,7 +1785,7 @@ Se ha añadido un nuevo producto.</rem:postcondition>
 </rem:frequency>
 <rem:step oid = "STP-0164">
 <rem:number>1</rem:number>
-<rem:useCaseAction useCase = "UC-0029"/><rem:comments>
+<rem:useCaseAction useCase = "UC-0060"/><rem:comments>
 este paso se realiza para que el usuario escoga el tipo de producto</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0165">
@@ -1565,17 +1806,48 @@ rellena los datos solicitados.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0167">
+<rem:step oid = "STP-0180">
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-guarda la informacion introducida en el formulario.</rem:description>
+muestra un mensaje pidiendo confirmacion para guardar el producto indicado; indicando que el guardado es permanente y no se pude deshacer.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0168">
+<rem:step oid = "STP-0181">
 <rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona una de las opciones propuestas por el sistema.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0182">
+<rem:number>6</rem:number>
+<rem:condition>
+se selecciona la opcion de &quot;Si&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+procede a guardar la informacion.</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0010">
+<rem:condition>
+se selecciona la opcion &quot;No&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el producto NO sera guardado</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0168">
+<rem:number>7</rem:number>
 <rem:systemAction>
 <rem:description>
 muestra un mensaje indicando que el proceso de guardado se ha realizado con exito.</rem:description>
@@ -1864,6 +2136,17 @@ La semilla seleccionada ha sido borrada del sistema.</rem:postcondition>
 <rem:description>
 muestra un mensaje pidiendo confirmacion para eliminar la semilla seleccionada.</rem:description>
 </rem:systemAction>
+<rem:stepException oid = "STX-0011">
+<rem:condition>
+la semilla esta asociada a un cultivo</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de error indicando que no se pueden eliminar semillas que estan asociadas a cultivos ya sean del hisotrico o cultivos en uso</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
@@ -1939,38 +2222,66 @@ El cultivo seleccionado ha sido borrado del sistema.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0032">
-<rem:name>
-Eliminar producto</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 "/>
-<rem:sources stakeholders ="STK-0006 "/>
+<rem:step oid = "STP-0172">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje pidiendo confirmacion para eliminar el cultivo seleccionado.</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0012">
+<rem:condition>
+el cultivo esta marcado como cosechado</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de error indicando que no se pueden eliminar cultivos ya cosechados para no perjudicar al historico</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0005"/>
-<rem:stability value = "SBV-0004"/>
-<rem:isAbstract/>
-<rem:triggeringEvent>
-el usuario pulsa el boton &quot;Eliminar&quot; sobre un producto seleccionado.</rem:triggeringEvent>
-<rem:precondition>
-El producto seleccionado esta guardado en el sistema.</rem:precondition>
-<rem:postcondition>
-El producto seleccionado ha sido borrado del sistema.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0173">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona una de las opciones propuestas por el sistema.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0174">
+<rem:number>3</rem:number>
+<rem:condition>
+se selecciona la opcion de &quot;Si&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+procede marcar la semilla del cultivo como libre y a eliminar el cultivo seleccionado.</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0008">
+<rem:condition>
+se selecciona la opcion &quot;No&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el tipo de semilla seleccionado NO sera eliminado</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0175">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje indicando que el proceso de eliminado se ha realizado con exito.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 <rem:useCase
  oid = "UC-0015">
@@ -1993,6 +2304,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
@@ -2002,17 +2314,8 @@ Se le ha mostrado al usuario los tipos de semillas disponibles.</rem:postconditi
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0114">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-recupera toda la informacion sobre tipos de semilla y la ordena.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0115">
-<rem:number>2</rem:number>
+<rem:number>1</rem:number>
 <rem:systemAction>
 <rem:description>
 despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
@@ -2021,7 +2324,7 @@ despliega un campo para que se introduzcan las palabras clave para la busqueda.<
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0116">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 escribe en el formulario las palabras a buscar.</rem:description>
@@ -2030,7 +2333,7 @@ escribe en el formulario las palabras a buscar.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0118">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 pulsa el boton &quot;Buscar&quot;.</rem:description>
@@ -2039,7 +2342,7 @@ pulsa el boton &quot;Buscar&quot;.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0117">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
@@ -2048,21 +2351,21 @@ elimina de pantalla los elementos que no coincidan con las palabras clave de la 
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0145">
-<rem:number>6</rem:number>
+<rem:number>5</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Eliminar&quot; sobre un tipo de semilla de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0014"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0146">
-<rem:number>7</rem:number>
+<rem:number>6</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Modificar&quot; sobre un tipo de semilla de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0016"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0169">
-<rem:number>8</rem:number>
+<rem:number>7</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Añadir&quot;</rem:condition>
 <rem:useCaseAction useCase = "UC-0013"/><rem:comments>
@@ -2090,6 +2393,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
@@ -2099,17 +2403,8 @@ Se le ha mostrado al usuario los tipos de cultivos disponibles.</rem:postconditi
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0120">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-recupera toda la informacion sobre tipos de cultivo y la ordena.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0121">
-<rem:number>2</rem:number>
+<rem:number>1</rem:number>
 <rem:systemAction>
 <rem:description>
 despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
@@ -2118,7 +2413,7 @@ despliega un campo para que se introduzcan las palabras clave para la busqueda.<
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0122">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 escribe en el formulario las palabras a buscar.</rem:description>
@@ -2127,7 +2422,7 @@ escribe en el formulario las palabras a buscar.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0123">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 pulsa el boton &quot;Buscar&quot;.</rem:description>
@@ -2136,7 +2431,7 @@ pulsa el boton &quot;Buscar&quot;.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0124">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
@@ -2145,21 +2440,21 @@ elimina de pantalla los elementos que no coincidan con las palabras clave de la 
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0147">
-<rem:number>6</rem:number>
+<rem:number>5</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Eliminar&quot; sobre un tipo de cultivo de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0021"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0148">
-<rem:number>7</rem:number>
+<rem:number>6</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Modificar&quot; sobre un tipo de cultivo de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0023"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0171">
-<rem:number>8</rem:number>
+<rem:number>7</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Añadir&quot;</rem:condition>
 <rem:useCaseAction useCase = "UC-0020"/><rem:comments>
@@ -2187,6 +2482,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
@@ -2196,17 +2492,8 @@ Se le ha mostrado al usuario los tipos de producto disponibles.</rem:postconditi
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0125">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-recupera toda la informacion sobre tipos de producto y la ordena.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0126">
-<rem:number>2</rem:number>
+<rem:number>1</rem:number>
 <rem:systemAction>
 <rem:description>
 despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
@@ -2215,7 +2502,7 @@ despliega un campo para que se introduzcan las palabras clave para la busqueda.<
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0127">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 escribe en el formulario las palabras a buscar.</rem:description>
@@ -2224,7 +2511,7 @@ escribe en el formulario las palabras a buscar.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0128">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 pulsa el boton &quot;Buscar&quot;.</rem:description>
@@ -2233,7 +2520,7 @@ pulsa el boton &quot;Buscar&quot;.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0129">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
@@ -2242,21 +2529,21 @@ elimina de pantalla los elementos que no coincidan con las palabras clave de la 
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0149">
-<rem:number>6</rem:number>
+<rem:number>5</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Eliminar&quot; sobre un tipo de producto de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0028"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0150">
-<rem:number>7</rem:number>
+<rem:number>6</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Modificar&quot; sobre un tipo de producto de los listados</rem:condition>
 <rem:useCaseAction useCase = "UC-0030"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0170">
-<rem:number>8</rem:number>
+<rem:number>7</rem:number>
 <rem:condition>
 se pulsa el boton &quot;Añadir&quot;</rem:condition>
 <rem:useCaseAction useCase = "UC-0027"/><rem:comments>
@@ -2284,6 +2571,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
@@ -2293,17 +2581,8 @@ Se le ha mostrado al usuario las semillas disponibles.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0130">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-recupera toda la informacion sobre semillas y la ordena.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0131">
-<rem:number>2</rem:number>
+<rem:number>1</rem:number>
 <rem:systemAction>
 <rem:description>
 despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
@@ -2312,7 +2591,7 @@ despliega un campo para que se introduzcan las palabras clave para la busqueda.<
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0132">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 escribe en el formulario las palabras a buscar.</rem:description>
@@ -2321,7 +2600,7 @@ escribe en el formulario las palabras a buscar.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0133">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 pulsa el boton &quot;Buscar&quot;.</rem:description>
@@ -2330,7 +2609,7 @@ pulsa el boton &quot;Buscar&quot;.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0134">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
@@ -2338,12 +2617,12 @@ elimina de pantalla los elementos que no coincidan con las palabras clave de la 
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0151">
-<rem:number>6</rem:number>
+<rem:step oid = "STP-0203">
+<rem:number>5</rem:number>
 <rem:condition>
-se pulsa el boton &quot;Eliminar&quot; sobre una semilla de las listadas</rem:condition>
-<rem:useCaseAction useCase = "UC-0018"/><rem:comments>
-Ninguno</rem:comments>
+se quiere buscar por tipos</rem:condition>
+<rem:useCaseAction useCase = "UC-0058"/><rem:comments>
+es para que el usuario elija el tipo por el que buscar</rem:comments>
 </rem:step>
 </rem:useCase>
 <rem:useCase
@@ -2367,6 +2646,7 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
@@ -2376,17 +2656,8 @@ Se le ha mostrado al usuario los cultivos disponibles.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0135">
-<rem:number>1</rem:number>
-<rem:systemAction>
-<rem:description>
-recupera toda la informacion sobre cultivos y la ordena.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 <rem:step oid = "STP-0136">
-<rem:number>2</rem:number>
+<rem:number>1</rem:number>
 <rem:systemAction>
 <rem:description>
 despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
@@ -2395,7 +2666,7 @@ despliega un campo para que se introduzcan las palabras clave para la busqueda.<
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0137">
-<rem:number>3</rem:number>
+<rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 escribe en el formulario las palabras a buscar.</rem:description>
@@ -2404,7 +2675,7 @@ escribe en el formulario las palabras a buscar.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0138">
-<rem:number>4</rem:number>
+<rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
 pulsa el boton &quot;Buscar&quot;.</rem:description>
@@ -2413,7 +2684,7 @@ pulsa el boton &quot;Buscar&quot;.</rem:description>
 Ninguno</rem:comments>
 </rem:step>
 <rem:step oid = "STP-0139">
-<rem:number>5</rem:number>
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
 elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
@@ -2421,12 +2692,12 @@ elimina de pantalla los elementos que no coincidan con las palabras clave de la 
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0153">
-<rem:number>6</rem:number>
+<rem:step oid = "STP-0205">
+<rem:number>5</rem:number>
 <rem:condition>
-se pulsa el boton &quot;Eliminar&quot; sobre un cultivo de los listados</rem:condition>
-<rem:useCaseAction useCase = "UC-0025"/><rem:comments>
-Ninguno</rem:comments>
+se quiere buscar por tipos</rem:condition>
+<rem:useCaseAction useCase = "UC-0059"/><rem:comments>
+es para que el usuario elija el tipo por el que buscar</rem:comments>
 </rem:step>
 </rem:useCase>
 <rem:useCase
@@ -2450,12 +2721,336 @@ Ninguno</rem:comments>
 <rem:urgency value = "URV-0003"/>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
 <rem:triggeringEvent>
 <rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
 -</rem:precondition>
 <rem:postcondition>
 Se le ha mostrado al usuario los productos disponibles.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0141">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0142">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escribe en el formulario las palabras a buscar.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0143">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+pulsa el boton &quot;Buscar&quot;.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0144">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0204">
+<rem:number>5</rem:number>
+<rem:condition>
+se quiere buscar por tipos</rem:condition>
+<rem:useCaseAction useCase = "UC-0060"/><rem:comments>
+es para que el usuario elija el tipo por el que buscar</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0058">
+<rem:name>
+Listar tipoSemilla</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar tipoSemilla&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0114">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera toda la informacion sobre tipos de semilla y la ordena.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0184">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0015"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0059">
+<rem:name>
+Listar tipoCultivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar tipoCultivo&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0120">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera toda la informacion sobre tipos de cultivo y la ordena.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0185">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0022"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0060">
+<rem:name>
+Listar tipoProducto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar tipoProducto&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0125">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera toda la informacion sobre tipos de producto y la ordena.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0186">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0029"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0061">
+<rem:name>
+Listar semilla</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar semilla&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0130">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera toda la informacion sobre semillas y la ordena.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0187">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0019"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0206">
+<rem:number>3</rem:number>
+<rem:condition>
+el usuario  pulsa el boton &quot;Ver detalle&quot; sobre una semilla de la lista</rem:condition>
+<rem:useCaseAction useCase = "UC-0064"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0062">
+<rem:name>
+Listar cultivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar cultivo&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0135">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera toda la informacion sobre cultivos y la ordena.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0188">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0026"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0207">
+<rem:number>3</rem:number>
+<rem:condition>
+el usuario  pulsa el boton &quot;Ver detalle&quot; sobre un cultivo de la lista</rem:condition>
+<rem:useCaseAction useCase = "UC-0065"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0063">
+<rem:name>
+Listar producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el boton &quot;Listar producto&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -2468,47 +3063,18 @@ recupera toda la informacion sobre productos y la ordena.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0141">
+<rem:step oid = "STP-0189">
 <rem:number>2</rem:number>
-<rem:systemAction>
-<rem:description>
-despliega un campo para que se introduzcan las palabras clave para la busqueda.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0142">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-escribe en el formulario las palabras a buscar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0143">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0001">
-<rem:description>
-pulsa el boton &quot;Buscar&quot;.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0144">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina de pantalla los elementos que no coincidan con las palabras clave de la busqueda</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0155">
-<rem:number>6</rem:number>
 <rem:condition>
-se pulsa el boton &quot;Eliminar&quot; sobre un producto de los listados</rem:condition>
-<rem:useCaseAction useCase = "UC-0032"/><rem:comments>
+el usuario pulsa el boton &quot;Buscar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0033"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0208">
+<rem:number>3</rem:number>
+<rem:condition>
+el usuario  pulsa el boton &quot;Ver detalle&quot; sobre un producto de la lista</rem:condition>
+<rem:useCaseAction useCase = "UC-0066"/><rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
@@ -2715,6 +3281,206 @@ muestra un mensaje indicando que el proceso de modificado se ha realizado con ex
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0064">
+<rem:name>
+Ver detalle semilla</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Se muestran los detalles de una semilla.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0197">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera la informacion detallada de la semilla y la muestra</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0198">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Eliminar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0018"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0065">
+<rem:name>
+Ver detalle cultivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+Se muestran los detalles de una semilla.</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Se muestran los detalles de un cultivo.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0199">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera la informacion detallada del cultivo y la muestra</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0200">
+<rem:number>2</rem:number>
+<rem:condition>
+el usuario pulsa el boton &quot;Eliminar&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0025"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0066">
+<rem:name>
+Ver detalle producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Se muestran los detalles de un producto.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0201">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+recupera la informacion detallada del producto y la muestra</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0067">
+<rem:name>
+Generar pienso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+El usuario pulsa el boton &quot;Generar pienso&quot;.</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+se ha generado pienso y se han marcado algunos productos como usados.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0068">
+<rem:name>
+Recomendar cultivo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Se muestran los cultivos recomendados.</rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
 </rem:useCase>
 </rem:section>
 <rem:section
@@ -4067,22 +4833,22 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
+<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
@@ -4150,27 +4916,6 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0006">
 <rem:name>
 Time</rem:name>
@@ -4187,6 +4932,27 @@ Time</rem:name>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
 Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -4214,8 +4980,11 @@ Dates</rem:description>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
@@ -4223,32 +4992,26 @@ Dates</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -4256,34 +5019,37 @@ Dates</rem:description>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -4298,40 +5064,22 @@ Dates</rem:description>
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
 <rem:name>Incompleción</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -4340,16 +5088,10 @@ Dates</rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -4358,23 +5100,47 @@ Dates</rem:description>
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
@@ -4394,23 +5160,23 @@ Dates</rem:description>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
@@ -4421,41 +5187,41 @@ Dates</rem:description>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0011">
 <rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
