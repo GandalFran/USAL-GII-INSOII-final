@@ -2216,7 +2216,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el boton "Añadir semilla"</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0057">
+           [UC-0057]
+           
+Comprar semillas</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -2385,8 +2389,10 @@ Davinia Carolina Zato Dominguez</a>
     El sistema deberá comportarse tal como se describe en el siguiente
 
     caso de uso abstracto durante la realización de los siguientes casos de uso: 
-<font color="red">?</font>
-</td>
+<a href="&#xA;                #UC-0057">
+           [UC-0057]
+           
+Comprar semillas</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -6818,7 +6824,7 @@ el usuario pulsa el botón "Buscar empleado".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="3">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -6832,13 +6838,57 @@ muestra un formulario con información obligatoria y opcional para localizar al e
 </td>
 </tr>
 <tr>
-<a name="STP-0064" />
+<a name="STP-0216" />
 <td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos del formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0227" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el botón "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0064" />
+<td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
 muestra una lista con los resultados de la búsqueda.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0228" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+si se pulsa el botón "Alta empleado",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0041">
+Dar alta empleado
+        (UC-0041)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0232" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el botón "Ver detalles" haciendo click derecho sobre un empleado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0045">
+Ver detalles empleado
+        (UC-0045)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -6949,7 +6999,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar alta empleado".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0044">
+           [UC-0044]
+           
+Buscar empleado</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -7107,7 +7161,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar baja empleado" sobre el empleado seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0045">
+           [UC-0045]
+           
+Ver detalles empleado</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -7267,7 +7325,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Modificar empleado" sobre uno previamente seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0045">
+           [UC-0045]
+           
+Ver detalles empleado</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -7416,7 +7478,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Ver detalles empleado".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0044">
+           [UC-0044]
+           
+Buscar empleado</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -7424,7 +7490,7 @@ el usuario pulsa el botón "Ver detalles empleado".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -7436,6 +7502,30 @@ el usuario pulsa el botón "Ver detalles empleado".</em>
     sistema<em>
 muestra los datos registrados del empleado.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0229" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+si se pulsa el botón "Dar de baja",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0042">
+Dar baja empleado
+        (UC-0042)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0230" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+si se pulsa el botón "Modificar",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0043">
+Modificar empleado
+        (UC-0043)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -7554,7 +7644,7 @@ el usuario pulsa el botón "Buscar tratante".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="3">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -7564,17 +7654,51 @@ el usuario pulsa el botón "Buscar tratante".</em>
 <td>El
      
     sistema<em>
-muestra un formulario con información obligatorio y opcional para localizar al tratante.</em>
+muestra un formulario con información obligatoria y opcional para localizar al tratante.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0215" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos del formulario.</em>
 </td>
 </tr>
 <tr>
 <a name="STP-0088" />
-<td align="center" valign="top">2</td>
+<td align="center" valign="top">3</td>
 <td>El
      
     sistema<em>
 muestra una lista con los resultados de la búsqueda.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0231" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+se pulsa el botón "Alta tratante",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0046">
+Dar alta tratante
+        (UC-0046)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0233" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se pulsa el botón "Ver detalles" haciendo click derecho sobre un empleado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0050">
+Ver detalles tratante
+        (UC-0050)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -7685,7 +7809,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar alta tratante".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0049">
+           [UC-0049]
+           
+Buscar tratante</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -7843,7 +7971,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar baja tratante" sobre el tratante seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0050">
+           [UC-0050]
+           
+Ver detalles tratante</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8003,7 +8135,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Modificar tratante" sobre uno previamente seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0050">
+           [UC-0050]
+           
+Ver detalles tratante</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8152,7 +8288,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Ver detalles tratante".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0049">
+           [UC-0049]
+           
+Buscar tratante</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8160,7 +8300,7 @@ el usuario pulsa el botón "Ver detalles tratante".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -8172,6 +8312,30 @@ el usuario pulsa el botón "Ver detalles tratante".</em>
     sistema<em>
 muestra los datos registrados del tratante.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0234" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+se pulsa el botón "Dar de baja",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0047">
+Dar baja tratante
+        (UC-0047)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0235" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se pulsa el botón "Modificar",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0048">
+Modificar tratante
+        (UC-0048)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -8290,7 +8454,7 @@ el usuario pulsa el botón "Buscar proveedor".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="3">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -8304,13 +8468,47 @@ muestra un formulario con información obligatoria y opcional para localizar al p
 </td>
 </tr>
 <tr>
-<a name="STP-0090" />
+<a name="STP-0214" />
 <td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos del formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0090" />
+<td align="center" valign="top">3</td>
 <td>El
      
     sistema<em>
 muestra una lista con los resultados de la búsqueda.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0236" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+se pulsa el botón "Alta proveedor",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0051">
+Dar alta proveedor
+        (UC-0051)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0237" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se pulsa el botón "Ver detalles" haciendo click derecho sobre un proveedor,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0054">
+Ver detalles proveedor
+        (UC-0054)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -8421,7 +8619,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar alta proveedor".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0056">
+           [UC-0056]
+           
+Buscar proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8579,7 +8781,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Dar baja proveedor" sobre el proveedor seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0054">
+           [UC-0054]
+           
+Ver detalles proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8739,7 +8945,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Modificar proveedor" sobre uno previamente seleccionado.</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0054">
+           [UC-0054]
+           
+Ver detalles proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8888,7 +9098,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Ver detalles proveedor".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0056">
+           [UC-0056]
+           
+Buscar proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -8896,7 +9110,7 @@ el usuario pulsa el botón "Ver detalles proveedor".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -8908,6 +9122,30 @@ el usuario pulsa el botón "Ver detalles proveedor".</em>
     sistema<em>
 muestra los datos registrados del proveedor.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0238" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+si se pulsa el botón "Dar de baja",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0052">
+Dar baja proveedor
+        (UC-0052)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0239" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+si se pulsa el botón "Modificar",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0053">
+Modificar proveedor
+        (UC-0053)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -9033,14 +9271,13 @@ el usuario pulsa el botón "Vender cabeza ganado".</em>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0108" />
+<a name="STP-0226" />
 <td align="center" valign="top">1</td>
-<td>
-    Se realiza el caso de uso
-<a href="&#xA;            #UC-0035">
-Buscar cabeza ganado
-        (UC-0035)
-    </a></td>
+<td>El
+     
+    sistema<em>
+---completar</em>
+</td>
 </tr>
 <tr>
 <a name="STP-0111" />
@@ -9068,446 +9305,6 @@ introduce el precio deseado para la cabeza de ganado.</em>
 la cabeza de ganado ha sido comprada,
                                 </em>
     se realiza el caso de uso
-<a href="&#xA;            #UC-0036">
-Generar factura
-        (UC-0036)
-    </a></td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0035" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0035</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Buscar cabeza ganado</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 19/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0001">
-Alfonso José Mateos Hoyos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso abstracto durante la realización de los siguientes casos de uso: 
-<a href="&#xA;                #UC-0034">
-           [UC-0034]
-           
-Vender cabeza ganado</a></td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="3">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0109" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra un formulario con información obligatoria y opcional para localizar la cabeza de ganado.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0110" />
-<td align="center" valign="top">2</td>
-<td>El
-     
-    sistema<em>
-muestra una lista con los resultados.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-Se muestra al usuario la lista de las cabezas de ganado encontradas.</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0040" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0040</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Ver detalles cabeza ganado</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 19/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0001">
-Alfonso José Mateos Hoyos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el botón "Ver detalles cabeza ganado".</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0095" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-muestra los datos registrados de le cabeza de ganado.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">importante</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">validado</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">alta</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0057" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0057</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Comprar semillas</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 20/09/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0001">
-Alfonso José Mateos Hoyos</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0006">
-Davinia Carolina Zato Dominguez</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-el usuario pulsa el botón "Comprar semillas".</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
--</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="6">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0103" />
-<td align="center" valign="top">1</td>
-<td>El
-     
-    sistema<em>
-pide introducir la cantidad que se quiere comprar.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0104" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
-    </a>
-<em>
-introduce la cantidad deseada.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0105" />
-<td align="center" valign="top">3</td>
-<td>Si<em>
-se introdujo una cantidad válida,
-                                </em>el
-     
-    sistema<em>
-procede a realizar la compra.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0106" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-muestra un mensaje indicando que la compra se ha realizado con éxito.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0107" />
-<td align="center" valign="top">5</td>
-<td>
-    Se realiza el caso de uso
 <a href="&#xA;            #UC-0036">
 Generar factura
         (UC-0036)
@@ -9630,7 +9427,7 @@ el usuario pulsa el botón "Comprar pienso".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -9674,13 +9471,207 @@ muestra un mensaje indicando que la compra se ha realizado con éxito.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0101" />
+<a name="STP-0221" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+si se pulsa el botón "Alta silo",
+                                </em>el
+     
+    sistema<em>
+--- completar
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0222" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el botón "Buscar silo",
+                                </em>el
+     
+    sistema<em>
+--- completar</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0057" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0057</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Comprar semillas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 20/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alfonso José Mateos Hoyos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario pulsa el botón "Comprar semillas".</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0103" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+pide introducir la cantidad que se quiere comprar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0104" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+introduce la cantidad deseada.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0105" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se introdujo una cantidad válida,
+                                </em>el
+     
+    sistema<em>
+procede a realizar la compra.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0106" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que la compra se ha realizado con éxito.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0224" />
 <td align="center" valign="top">5</td>
 <td>
     Se realiza el caso de uso
-<a href="&#xA;            #UC-0036">
-Generar factura
-        (UC-0036)
+<a href="&#xA;            #UC-0017">
+Alta semilla
+        (UC-0017)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0225" />
+<td align="center" valign="top">6</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0024">
+Alta cultivo
+        (UC-0024)
     </a></td>
 </tr>
 <tr>
@@ -9793,13 +9784,7 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0034">
            [UC-0034]
            
-Vender cabeza ganado</a>, <a href="&#xA;                #UC-0037">
-           [UC-0037]
-           
-Comprar pienso</a>, <a href="&#xA;                #UC-0057">
-           [UC-0057]
-           
-Comprar semillas</a></td>
+Vender cabeza ganado</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -9937,7 +9922,7 @@ el usuario pulsa el botón "Listar facturas".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -9948,6 +9933,342 @@ el usuario pulsa el botón "Listar facturas".</em>
      
     sistema<em>
 muestra una lista con las facturas registradas, ordenadas de más a menos actual.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0217" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+se pulsa el botón "Buscar",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0070">
+Buscar factura
+        (UC-0070)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0220" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+se pulsa el botón "Ver detalles" haciendo click derecho sobre una factura,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0069">
+Ver detalles factura
+        (UC-0069)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0070" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0070</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar factura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alfonso José Mateos Hoyos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario pulsa el botón "Buscar factura".</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0055">
+           [UC-0055]
+           
+Listar facturas</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0210" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con información obligatoria y opcional para localizar al empleado.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0211" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos del formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0219" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el botón "Buscar".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0212" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra una lista con los resultados de la búsqueda.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0218" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se pulsa el botón "Ver detalles" haciendo click derecho sobre una factura,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0069">
+Ver detalles factura
+        (UC-0069)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0069" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0069</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Ver detalles factura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alfonso José Mateos Hoyos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario pulsa el botón "Ver detalles factura".</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0055">
+           [UC-0055]
+           
+Listar facturas</a>, <a href="&#xA;                #UC-0070">
+           [UC-0070]
+           
+Buscar factura</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0209" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra los detalles de la factura seleccionada.</em>
 </td>
 </tr>
 <tr>
