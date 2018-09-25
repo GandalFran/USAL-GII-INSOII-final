@@ -285,7 +285,7 @@ Objetivos del sistema</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0005 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -929,7 +929,7 @@ Administrador</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0005 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -948,7 +948,7 @@ Comercial</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0005 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -967,11 +967,30 @@ Ninguno</rem:comments>
 <rem:day>23</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 STK-0005 STK-0003 STK-0002 "/>
+<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:actorRole>un temporizador que desencadenará una acción en el sistema tras un periodo de tiempo.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0004">
+<rem:name>
+Empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>empleado que se dedica a realizar trabajos en los terrenos</rem:actorRole>
 </rem:actor>
 <rem:graphicFile
  oid = "GRF-0009">
@@ -1041,7 +1060,7 @@ Requisitos de producto</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1060,7 +1079,7 @@ Requisitos de usabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1084,7 +1103,7 @@ Requisitos de fiabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1108,7 +1127,7 @@ Requisitos de rendimiento</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1132,7 +1151,7 @@ Requisitos de portabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1157,7 +1176,7 @@ Requisitos de organización</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1176,7 +1195,7 @@ Requisitos de estándares</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1201,7 +1220,7 @@ Requisitos externos</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1220,7 +1239,7 @@ Requisitos de privacidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1244,7 +1263,7 @@ Requisitos de seguridad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0004 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0004 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -6284,24 +6303,6 @@ Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.5.5 </rem:number>
 <rem:section
- oid = "SEC-0041">
-<rem:name>
-Terreno agricola</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.5.5.1 </rem:number>
-</rem:section>
-<rem:section
  oid = "SEC-0042">
 <rem:name>
 Terreno ganadero</rem:name>
@@ -6317,7 +6318,7 @@ Terreno ganadero</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>3.5.5.2 </rem:number>
+<rem:number>3.5.5.1 </rem:number>
 <rem:useCase
  oid = "UC-0090">
 <rem:name>
@@ -6888,6 +6889,929 @@ Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
 </rem:section>
+<rem:section
+ oid = "SEC-0044">
+<rem:name>
+terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.5.5.2 </rem:number>
+<rem:useCase
+ oid = "UC-0101">
+<rem:name>
+Listar terrenos agrícolas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el usuario pulsa el botón &quot;Listar terrenos agrícolas&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0386">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita listar terrenos agrícolas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0387">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los terrenos agrícolas</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0030">
+<rem:condition>
+pulsa en cancelar</rem:condition>
+<rem:systemAction>
+<rem:description>
+cierra la interfaz gráfica de usuario de listar terrenos agrícolas</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0388">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa &quot;Buscar terreno agrícola&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0106"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0389">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa &quot;Añadir terreno agrícola&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0102"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0390">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa &quot;Ver detalle terreno agrícola&quot; sobre un terreno agrícola del listado</rem:condition>
+<rem:useCaseAction useCase = "UC-0108"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0102">
+<rem:name>
+Añadir terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Si añadir terreno agrícola no ha sido cancelado, el sistema registra en la base de datos el producto con toda la información asociada</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:frequency>
+<rem:step oid = "STP-0391">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+pulsa solicita añadir terreno agrícola</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0392">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz gráfica nueva donde pide la información del nuevo terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0393">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+introduce la información del producto</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0031">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha cancelado añadir el producto</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0394">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+solicita que se seleccione hasta un máximo de 3 tipos de cultivos preferidos</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0395">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa en &quot;Buscar tipoCultivo&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0022"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0396">
+<rem:number>6</rem:number>
+<rem:condition>
+pulsa en &quot;Alta tipoCultivo&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0020"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0397">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona los tipos de cultivos preferidos</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0032">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha cancelado añadir el producto</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0398">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la vista previa del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0399">
+<rem:number>9</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+confirma añadir el terreno agrícola</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0033">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 2, además mostrando los datos rellenados anteriormente para que pueda modificar</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0103">
+<rem:name>
+Modificar terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sisteme debe de tener el ID  de un terreno agrícola</rem:precondition>
+<rem:postcondition>
+Si modificar el terreno agrícola no ha sido cancelado, el sistema modifica en la base de datos, los campos de información cambiadas</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:frequency>
+<rem:step oid = "STP-0400">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita modificar un terreno agrícola</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0401">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una nueva interfaz con la información del terreno agrícola, cuyos campos de información son modificables</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0402">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+modifica ciertos campos de información y pulsa en &quot;Aceptar&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0034">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha cancelado la modificación del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0403">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la vista previa del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0404">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+pulsa en &quot;Guardar&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0035">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 2, mostrando los datos modificados</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0104">
+<rem:name>
+Eliminar terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema tiene el ID de un terreno agrícola</rem:precondition>
+<rem:postcondition>
+Si no se ha cancelado eliminar el terreno agrícola, se eliminará en la base de datos los datos del terreno agrícola</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:frequency>
+<rem:step oid = "STP-0405">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita la eliminación de un terreno agrícola</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0406">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que si confirma la eliminación, el terreno agrícola se borrará del sistema</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0407">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+acepta la eliminación</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0036">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la eliminación ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0408">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que el terreno agrícola ha sido eliminado</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0105">
+<rem:name>
+Listar historial de cultivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema tiene un ID de un terreno agrícola</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0409">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita listar historial de cultivos</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0410">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra el historial de cultivos</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0411">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Buscar cultivo&quot; de los cultivos del terreno agrícola</rem:condition>
+<rem:useCaseAction useCase = "UC-0026"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0106">
+<rem:name>
+Buscar terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0412">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+introduce el nombre o filtro para buscar el/los terreno/s agrícola/s</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0413">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los terrenos agrícolas que tenga similitud con la búsqueda</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0107">
+<rem:name>
+Modificar cultivos preferidos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Es sistema debe de tener un ID de un terreno agrícola</rem:precondition>
+<rem:postcondition>
+Si modificar cultivos preferidos no ha sido cancelado, se modificará en la base de datos, los cultivos preferidos del terreno agrícola</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+<rem:step oid = "STP-0414">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita modificar los cultivos preferidos de un terreno agrícola en concreto</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0415">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los cultivos preferidos que tiene actualmente el terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0416">
+<rem:number>3</rem:number>
+<rem:condition>
+quita alguno de los tipos de cultivos preferidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+quita de la interfaz, el tipo de cultivo que ha quitado el usuario</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0417">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa en &quot;Buscar tipoCultivo&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0022"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0418">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa en &quot;Alta tipoCultivo&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0027"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0419">
+<rem:number>6</rem:number>
+<rem:condition>
+se buscó un tipo de cultivo o añadió un tipo de cultivo, y se selecciona</rem:condition>
+<rem:systemAction>
+<rem:description>
+actualiza la lista de tipos de cultivos preferidos</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0037">
+<rem:condition>
+ya hay tres tipos de cultivo preferidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+no permite añadir el tipo cultivo a los cultivos preferidos del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0420">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+pulsa en guardar</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0038">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha cancelado la modificación de los terrenos preferidos, y se sale de la interfaz</rem:description>
+<rem:performance>
+<rem:value>
+4
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0108">
+<rem:name>
+Ver detalle terreno agrícola</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+el sistema debe de tener un ID de un terreno agrícola</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0421">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita ver detalle terreno agrícola</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0422">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una intefaz con los detalles del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0039">
+<rem:condition>
+pulsa &quot;Cerrar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+cierra la intefaz gráfica que muestra los detalles del terreno agrícola</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0423">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Modificar cultivos preferidos&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0107"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0424">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa en &quot;Eliminar terreno agrícola&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0104"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0425">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa en &quot;Listar trabajos&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+ATENCIIOOOOON!!!! EXTENDOS A LISTAR TRABAJOS</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0426">
+<rem:number>6</rem:number>
+<rem:condition>
+pulsa en &quot;Modificar terreno agrícola&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0103"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0427">
+<rem:number>7</rem:number>
+<rem:condition>
+pulsa en &quot;Alta cultivo&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0020"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0428">
+<rem:number>8</rem:number>
+<rem:condition>
+pulsa en &quot;Recoger cosecha&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+ATENCIOOON!!!! EXTEND A RECOGER COSECHAAAA</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0429">
+<rem:number>9</rem:number>
+<rem:condition>
+pulsa en &quot;Listar historial cultivos&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0105"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
 </rem:section>
 </rem:section>
 <rem:section
@@ -7206,50 +8130,29 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0005">
+ oid = "PVT-0002">
 <rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
+Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -7262,28 +8165,7 @@ String</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
+Integer numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -7310,27 +8192,6 @@ Real numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0003">
 <rem:name>
 Natural</rem:name>
@@ -7351,146 +8212,113 @@ Natural numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
+<rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
 <rem:name>Dependiente del diseño</rem:name>
 <rem:description>
@@ -7503,17 +8331,113 @@ Natural numbers</rem:description>
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
 <rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
@@ -7530,11 +8454,11 @@ Natural numbers</rem:description>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
@@ -7545,14 +8469,26 @@ Natural numbers</rem:description>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
@@ -7560,33 +8496,18 @@ Natural numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
@@ -7595,6 +8516,9 @@ Natural numbers</rem:description>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
