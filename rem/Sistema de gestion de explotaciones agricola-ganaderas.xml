@@ -285,7 +285,7 @@ Objetivos del sistema</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0003 STK-0005 STK-0002 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -929,7 +929,7 @@ Administrador</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0003 STK-0005 STK-0002 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -948,7 +948,7 @@ Comercial</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0003 STK-0005 STK-0002 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -967,7 +967,7 @@ Ninguno</rem:comments>
 <rem:day>23</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0003 STK-0005 STK-0002 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -986,7 +986,7 @@ Empleado</rem:name>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0002 STK-0005 STK-0001 STK-0003 STK-0004 "/>
+<rem:authors stakeholders ="STK-0003 STK-0005 STK-0002 STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1060,7 +1060,7 @@ Requisitos de producto</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1079,7 +1079,7 @@ Requisitos de usabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1103,7 +1103,7 @@ Requisitos de fiabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1127,7 +1127,7 @@ Requisitos de rendimiento</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1151,7 +1151,7 @@ Requisitos de portabilidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1176,7 +1176,7 @@ Requisitos de organización</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1195,7 +1195,7 @@ Requisitos de estándares</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1220,7 +1220,7 @@ Requisitos externos</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1239,7 +1239,7 @@ Requisitos de privacidad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1263,7 +1263,7 @@ Requisitos de seguridad</rem:name>
 <rem:day>14</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0004 "/>
+<rem:authors stakeholders ="STK-0004 STK-0001 "/>
 <rem:sources stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1294,9 +1294,9 @@ Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.5 </rem:number>
 <rem:section
- oid = "SEC-0028">
+ oid = "SEC-0029">
 <rem:name>
-Gestion de instalaciones, materiales y trabajos</rem:name>
+Gestión agropecuaria</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1310,78 +1310,6 @@ Gestion de instalaciones, materiales y trabajos</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.5.1 </rem:number>
-<rem:section
- oid = "SEC-0032">
-<rem:name>
-Maquinaria</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.5.1.1 </rem:number>
-</rem:section>
-<rem:section
- oid = "SEC-0033">
-<rem:name>
-Trabajos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.5.1.2 </rem:number>
-</rem:section>
-<rem:section
- oid = "SEC-0034">
-<rem:name>
-Silos</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>4</rem:level>
-<rem:number>3.5.1.3 </rem:number>
-</rem:section>
-</rem:section>
-<rem:section
- oid = "SEC-0029">
-<rem:name>
-Gestion agropecuaria</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>3</rem:level>
-<rem:number>3.5.2 </rem:number>
 <rem:section
  oid = "SEC-0036">
 <rem:name>
@@ -1398,7 +1326,7 @@ Cultivos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>3.5.2.1 </rem:number>
+<rem:number>3.5.1.1 </rem:number>
 <rem:useCase
  oid = "UC-0013">
 <rem:name>
@@ -3399,7 +3327,7 @@ Ganado</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>3.5.2.2 </rem:number>
+<rem:number>3.5.1.2 </rem:number>
 <rem:section
  oid = "SEC-0038">
 <rem:name>
@@ -3416,7 +3344,7 @@ Cabeza Ganado</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>5</rem:level>
-<rem:number>3.5.2.2.1 </rem:number>
+<rem:number>3.5.1.2.1 </rem:number>
 <rem:useCase
  oid = "UC-0072">
 <rem:name>
@@ -3901,7 +3829,7 @@ Tipo Ganado</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>5</rem:level>
-<rem:number>3.5.2.2.2 </rem:number>
+<rem:number>3.5.1.2.2 </rem:number>
 <rem:useCase
  oid = "UC-0076">
 <rem:name>
@@ -4319,7 +4247,7 @@ Producto Carnico</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>5</rem:level>
-<rem:number>3.5.2.2.3 </rem:number>
+<rem:number>3.5.1.2.3 </rem:number>
 <rem:useCase
  oid = "UC-0084">
 <rem:name>
@@ -4730,7 +4658,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0030">
 <rem:name>
-Gestion de usuarios</rem:name>
+Gestión de usuarios</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4743,7 +4671,7 @@ Gestion de usuarios</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>3.5.3 </rem:number>
+<rem:number>3.5.2 </rem:number>
 <rem:useCase
  oid = "UC-0044">
 <rem:name>
@@ -5754,7 +5682,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0031">
 <rem:name>
-Gestion de compra-venta</rem:name>
+Gestión de compra-venta</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5767,7 +5695,7 @@ Gestion de compra-venta</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>3.5.4 </rem:number>
+<rem:number>3.5.3 </rem:number>
 <rem:useCase
  oid = "UC-0071">
 <rem:name>
@@ -6288,7 +6216,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0035">
 <rem:name>
-Terrenos</rem:name>
+Gestión de terrenos</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6301,7 +6229,7 @@ Terrenos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
-<rem:number>3.5.5 </rem:number>
+<rem:number>3.5.4 </rem:number>
 <rem:section
  oid = "SEC-0042">
 <rem:name>
@@ -6318,7 +6246,7 @@ Terreno ganadero</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>3.5.5.1 </rem:number>
+<rem:number>3.5.4.1 </rem:number>
 <rem:useCase
  oid = "UC-0090">
 <rem:name>
@@ -6892,7 +6820,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0044">
 <rem:name>
-terreno agrícola</rem:name>
+Terreno agrícola</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6905,7 +6833,7 @@ terreno agrícola</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
-<rem:number>3.5.5.2 </rem:number>
+<rem:number>3.5.4.2 </rem:number>
 <rem:useCase
  oid = "UC-0101">
 <rem:name>
@@ -7813,6 +7741,1339 @@ Ninguno</rem:comments>
 </rem:useCase>
 </rem:section>
 </rem:section>
+<rem:section
+ oid = "SEC-0045">
+<rem:name>
+Gestión de maquinarias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.5.5 </rem:number>
+<rem:useCase
+ oid = "UC-0111">
+<rem:name>
+Modificar averia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Es sistema tiene un ID de la averia y es una avería activa</rem:precondition>
+<rem:postcondition>
+Si no se cancela la modificación se guardará los cambios en la base de datos</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0441">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+solicita modificar una averia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0442">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la información de la avería, donde puede modificar la información</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0444">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+modifica datos y pulsa &quot;Aceptar&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0043">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la modificación ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0445">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la vista previa de la averia</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0446">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+confirma la modificación</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0044">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 2</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0447">
+<rem:number>6</rem:number>
+<rem:condition>
+cambia el estado de la averia</rem:condition>
+<rem:systemAction>
+<rem:description>
+comprueba si el cambio de estado afecta al estado de la maquinaria al ser la única avería activa, si es así modifica el estado de la maquinaria también</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0112">
+<rem:name>
+Eliminar avería</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema tiene que tener un ID de una avería y es una avería activa</rem:precondition>
+<rem:postcondition>
+Si no se ha cancelado, se elimina la avería de la base de datos</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0449">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+solicita la eliminación de una averia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0452">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que si confirma la eliminación, se borrará la avería del sistema</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0453">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+acepta la eliminación de la avería</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0045">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la eliminación de la avería ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0454">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la avería ha sido eliminada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0456">
+<rem:number>5</rem:number>
+<rem:condition>
+la maquinaria sólo tenía esta avería activa</rem:condition>
+<rem:systemAction>
+<rem:description>
+comprueba si es necesario cambiar el estado de la maquinaria, y si es así, lo cambia</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0113">
+<rem:name>
+Ver detalle avería</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema debe tener el ID de una avería</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0457">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+solicita ver el detalle de una avería</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0459">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la información de la avería</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0046">
+<rem:condition>
+pulsa &quot;Cerrar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+cierra la interfaz gráfica que muestra los detalles de la avería</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0460">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Modificar avería&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0111"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0461">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa en &quot;Eliminar avería&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0112"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0114">
+<rem:name>
+Buscar avería por ID</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el actor empleado pulsa &quot;Buscar avería por ID&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0462">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+solicita buscar una avería mediante el ID</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0463">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+solicita el ID</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0047">
+<rem:condition>
+pulsa en &quot;Cancelar</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la búsqueda ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0464">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+introduce el ID</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0465">
+<rem:number>4</rem:number>
+<rem:useCaseAction useCase = "UC-0113"/><rem:stepException oid = "STX-0048">
+<rem:condition>
+no encuentra el ID</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 2</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0115">
+<rem:name>
+Registrar avería</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Si no se ha cancelado, se guardará la avería en la base de datos</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0466">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+solicita registrar una nueva avería</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0467">
+<rem:number>2</rem:number>
+<rem:condition>
+el sistema no tiene el ID de la maquinaria</rem:condition>
+<rem:systemAction>
+<rem:description>
+solicita la maquinaría</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0468">
+<rem:number>3</rem:number>
+<rem:condition>
+el sistema no tiene el ID de la maquinaria</rem:condition>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+selecciona la maquinaria</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0049">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que el registro de la avería ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0469">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una intefaz gráfica donde el usuario puede rellenar los detalles de la avería</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0470">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+introduce los datos y pulsa &quot;Aceptar&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0050">
+<rem:condition>
+pulsa en &quot;Cerrar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que el registro de la avería se ha cancelado</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0471">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la vista previa de la avería</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0472">
+<rem:number>7</rem:number>
+<rem:actorAction actor = "ACT-0004">
+<rem:description>
+confirma la avería</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0051">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 5</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0473">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+comprueba si la maquinaria tiene averías activas a parte de la nueva avería</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0474">
+<rem:number>9</rem:number>
+<rem:condition>
+la maquinaria no tenía averías previas</rem:condition>
+<rem:systemAction>
+<rem:description>
+pasa el estado de la maquinaria de &quot;En funcionamiento&quot; a &quot;Averiada&quot;</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0116">
+<rem:name>
+Listar averías</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema debe de tener el ID de una maquinaria</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0475">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita listar averías de un maquinaria</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0476">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una lista de las averías de la maquinaria</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0477">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Registrar avería&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0115"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0478">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa &quot;Ver detalle&quot; de una avería</rem:condition>
+<rem:useCaseAction useCase = "UC-0113"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0110">
+<rem:name>
+Modificar estado maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema tiene un ID de una maquinaria que está en un estado averiada o en un estado de reparación</rem:precondition>
+<rem:postcondition>
+Si no se cancela, si el estado inicial es &quot;Averiada&quot; pasa al estado de &quot;En reparación&quot;, y si el estado inicial es &quot;En reparación&quot; pasa a &quot;En funcionamiento&quot;</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+<rem:step oid = "STP-0434">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita modificar el estado de la maquinaria de &quot;Averiada&quot; a &quot;En reparación&quot;, o de &quot;En reparación&quot; a &quot;En funcionamiento&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0437">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+pide la confirmación del cambio de estado</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0438">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+acepta la confirmación</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0042">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que el cambio de estado de la maquinaria se ha cancelado</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0439">
+<rem:number>4</rem:number>
+<rem:condition>
+el estado de la maquinaria pasa de &quot;Averiada&quot; a &quot;En reparación&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+cambia la información de todas las averías activas de la maquinaria a &quot;En reparación&quot;</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0440">
+<rem:number>5</rem:number>
+<rem:condition>
+el estado de la maquinaria pasa de &quot;En reparación&quot; a &quot;En funcionamiento&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+cambia la información de todas las averías activas de la maquinaria a &quot;Reparada&quot; y desactiva las averías activas</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0109">
+<rem:name>
+Eliminar maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema debe tener un ID de una maquinaria</rem:precondition>
+<rem:postcondition>
+Si no se cancela la eliminación de la maquinaria, se eliminará los datos  relacionado con la maquianria de la base de datos</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+<rem:step oid = "STP-0430">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita la eliminación de la maquinaria</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0431">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que si confirma la eliminación, se borrará la maquinaria del sistema</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0432">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+acepta la eliminación de la maquinaria</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0041">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la eliminación ha sido cancelada</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0433">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que la maquinaria ha sido eliminado</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0117">
+<rem:name>
+Ver detalle maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El sistema debe de tener un ID de una maquinaria</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0479">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita ver detalle maquinaria</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0480">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los detalles de la maquinaria</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0481">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Listar trabajos&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+ATENCIIIIOOOONNN!!!!! EXTEND A LISTAR TRABAJOS</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0482">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa en &quot;Eliminar maquinaria&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0109"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0483">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa en &quot;Modificar estado maquinaria&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0110"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0484">
+<rem:number>6</rem:number>
+<rem:condition>
+pulsa en &quot;Listar averias&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0116"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0118">
+<rem:name>
+Añadir maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+Si no se ha cancelado, se guarda en la base de datos, la nueva maquinaria</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+<rem:step oid = "STP-0485">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita añadir una maquinaria</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0486">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz gráfica para rellenar la información de la maquinaria</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0487">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+rellena los datos y pulsa en &quot;Continuar&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0052">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha cancelado la introducción de una nueva maquinaria</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0488">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una interfaz con la vista previa de la nueva maquinaria</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0489">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+pulsa en &quot;Añadir&quot;</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0053">
+<rem:condition>
+pulsa en &quot;Cancelar&quot;</rem:condition>
+<rem:systemAction>
+<rem:description>
+vuelve al paso 3</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0490">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de que se ha añadido con éxito</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0119">
+<rem:name>
+Buscar maquinaria</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0491">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+introduce el nombre o filtro para buscar el/las maquinaria/s</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0492">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema muestra las maquinarias que tenga similitud con la búsqueda</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0120">
+<rem:name>
+Listar maquinarias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0006 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+pulsa en &quot;Listar maquinarias&quot;</rem:triggeringEvent>
+<rem:precondition>
+-</rem:precondition>
+<rem:postcondition>
+-</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0493">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+solicita listar las maquinarias</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0494">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra las maquinarias</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0495">
+<rem:number>3</rem:number>
+<rem:condition>
+pulsa en &quot;Buscar maquinaria&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0119"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0496">
+<rem:number>4</rem:number>
+<rem:condition>
+pulsa en &quot;Añadir maquinaria&quot;</rem:condition>
+<rem:useCaseAction useCase = "UC-0118"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0497">
+<rem:number>5</rem:number>
+<rem:condition>
+pulsa en &quot;Ver detalle&quot; de una maquinaria</rem:condition>
+<rem:useCaseAction useCase = "UC-0117"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0014">
@@ -8130,46 +9391,25 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0010"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0006"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "OBJ-0008"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0009"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0007"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0005"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
@@ -8187,6 +9427,27 @@ Real</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -8277,88 +9538,64 @@ Hour:minutes:seconds</rem:description>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
@@ -8367,10 +9604,22 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
@@ -8385,6 +9634,30 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
 <rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
@@ -8397,62 +9670,53 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
@@ -8463,44 +9727,20 @@ Hour:minutes:seconds</rem:description>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
@@ -8508,17 +9748,38 @@ Hour:minutes:seconds</rem:description>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
