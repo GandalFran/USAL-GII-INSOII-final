@@ -1740,7 +1740,13 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0015">
            [UC-0015]
            
-Buscar tipoSemilla</a></td>
+Buscar tipoSemilla</a>, <a href="&#xA;                #UC-0051">
+           [UC-0051]
+           
+Dar alta proveedor</a>, <a href="&#xA;                #UC-0053">
+           [UC-0053]
+           
+Modificar proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -3635,7 +3641,16 @@ Davinia Carolina Zato Dominguez</a>
     El sistema deberá comportarse tal como se describe en el siguiente
 
     caso de uso abstracto durante la realización de los siguientes casos de uso: 
-<a href="&#xA;                #UC-0058">
+<a href="&#xA;                #UC-0051">
+           [UC-0051]
+           
+Dar alta proveedor</a>, <a href="&#xA;                #UC-0053">
+           [UC-0053]
+           
+Modificar proveedor</a>, <a href="&#xA;                #UC-0056">
+           [UC-0056]
+           
+Buscar proveedor</a>, <a href="&#xA;                #UC-0058">
            [UC-0058]
            
 Listar tipoSemilla</a></td>
@@ -8472,43 +8487,44 @@ el usuario pulsa el botón "Buscar proveedor".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0089" />
+<a name="STP-0252" />
 <td align="center" valign="top">1</td>
 <td>El
      
     sistema<em>
-muestra un formulario con información obligatoria y opcional para localizar al proveedor.</em>
+muestra una lista con todos los proveedores.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0089" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con información opcional para localizar al proveedor.</em>
 </td>
 </tr>
 <tr>
 <a name="STP-0214" />
-<td align="center" valign="top">2</td>
-<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
-Administrador (ACT-0001)
-    </a>
-<em>
-rellena los datos del formulario.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0090" />
 <td align="center" valign="top">3</td>
-<td>El
+<td>Si<em>
+se introduce informacion,
+                                </em>el
      
     sistema<em>
-muestra una lista con los resultados de la búsqueda.</em>
+muestra una nueva lista filtrada con la información introducida.</em>
 </td>
 </tr>
 <tr>
 <a name="STP-0236" />
 <td align="center" valign="top">4</td>
 <td>Si<em>
-se pulsa el botón "Alta proveedor",
+se pulsa el botón "Alta proveedor" haciendo click derecho sobre un proveedor,
                                 </em>
     se realiza el caso de uso
 <a href="&#xA;            #UC-0051">
@@ -8526,6 +8542,18 @@ se pulsa el botón "Ver detalles" haciendo click derecho sobre un proveedor,
 <a href="&#xA;            #UC-0054">
 Ver detalles proveedor
         (UC-0054)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0253" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el botón "Buscar tipoSemilla",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0015">
+Buscar tipoSemilla
+        (UC-0015)
     </a></td>
 </tr>
 <tr>
@@ -8649,7 +8677,7 @@ Buscar proveedor</a></td>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="left" valign="top" rowspan="7">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -8689,6 +8717,30 @@ guarda la información introducida en el formulario.</em>
     sistema<em>
 muestra un mensaje indicando que el proceso de guardado se ha realizado con éxito.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0254" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se pulsa el botón "Alta tipoSemilla",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0013">
+Alta tipoSemilla
+        (UC-0013)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0255" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+se pulsa el botón "Buscar tipoSemilla",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0015">
+Buscar tipoSemilla
+        (UC-0015)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -8838,7 +8890,7 @@ selecciona una de las opciones propuestas por el sistema.</em>
 <a name="STP-0079" />
 <td align="center" valign="top">3</td>
 <td>Si<em>
-se selecciona "No",
+se selecciona "Sí",
                                 </em>el
      
     sistema<em>
@@ -8975,7 +9027,7 @@ Ver detalles proveedor</a></td>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="4">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -9006,6 +9058,30 @@ puede modificar o dejar igual los datos del proveedor seleccionado.</em>
     sistema<em>
 muestra un mensaje indicando que el proceso de modificado se ha realizado con éxito.</em>
 </td>
+</tr>
+<tr>
+<a name="STP-0256" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+se pulsa el botón "Buscar tipoSemilla",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0015">
+Buscar tipoSemilla
+        (UC-0015)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0257" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+se pulsa el botón "Alta tipoSemilla",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0013">
+Alta tipoSemilla
+        (UC-0013)
+    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -9227,7 +9303,176 @@ Ninguno</td>
 <p />
 <a name="SEC-0031" />
 <h3 align="left">3.5.4 
-Gestion de compra-venta</h3><a name="UC-0034" />
+Gestion de compra-venta</h3><a name="UC-0071" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0071</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Vender productos carnicos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 25/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alfonso José Mateos Hoyos</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario pulsa el botón "Vender productos carnicos".</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0240" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+-completar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0245" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+selecciona un producto.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0246" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa sobre el botón "Vender".</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0243" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje anunciando que la venta se ha realizado con éxito.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0244" />
+<td align="center" valign="top">5</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0036">
+Generar factura
+        (UC-0036)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se restan las unidades vendidas en la base de datos.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0034" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0034</th>
@@ -9284,7 +9529,7 @@ el usuario pulsa el botón "Vender cabeza ganado".</em>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -9298,31 +9543,39 @@ el usuario pulsa el botón "Vender cabeza ganado".</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0111" />
+<a name="STP-0247" />
 <td align="center" valign="top">2</td>
-<td>El
-     
-    sistema<em>
-pide introducir el precio de la cabeza de ganado seleccionada.</em>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+selecciona una cabeza de ganado.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0113" />
+<a name="STP-0248" />
 <td align="center" valign="top">3</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
 Administrador (ACT-0001)
     </a>
 <em>
-introduce el precio deseado para la cabeza de ganado.</em>
+pulsa sobre el botón "Vender".</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0112" />
+<a name="STP-0249" />
 <td align="center" valign="top">4</td>
-<td>Si<em>
-la cabeza de ganado ha sido comprada,
-                                </em>
-    se realiza el caso de uso
+<td>El
+     
+    sistema<em>
+muestra un mensaje anunciando que la venta se ha realizado con éxito.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0250" />
+<td align="center" valign="top">5</td>
+<td>
+    Se realiza el caso de uso
 <a href="&#xA;            #UC-0036">
 Generar factura
         (UC-0036)
@@ -9331,7 +9584,7 @@ Generar factura
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
--</td>
+La cabeza de ganado se marca como "Vendida".</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -9802,7 +10055,10 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0034">
            [UC-0034]
            
-Vender cabeza ganado</a></td>
+Vender cabeza ganado</a>, <a href="&#xA;                #UC-0071">
+           [UC-0071]
+           
+Vender productos carnicos</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -9820,7 +10076,7 @@ Vender cabeza ganado</a></td>
 <td>El
      
     sistema<em>
- recogerá los datos de la compra y los registrará en la base de datos.</em>
+ recogerá los datos de la compra en un documento y los registrará en la base de datos.</em>
 </td>
 </tr>
 <tr>
@@ -10098,7 +10354,7 @@ Listar facturas</a></td>
 -</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -10139,18 +10395,6 @@ pulsa el botón "Buscar".</em>
     sistema<em>
 muestra una lista con los resultados de la búsqueda.</em>
 </td>
-</tr>
-<tr>
-<a name="STP-0218" />
-<td align="center" valign="top">5</td>
-<td>Si<em>
-se pulsa el botón "Ver detalles" haciendo click derecho sobre una factura,
-                                </em>
-    se realiza el caso de uso
-<a href="&#xA;            #UC-0069">
-Ver detalles factura
-        (UC-0069)
-    </a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -10265,10 +10509,7 @@ el usuario pulsa el botón "Ver detalles factura".</em>
 <a href="&#xA;                #UC-0055">
            [UC-0055]
            
-Listar facturas</a>, <a href="&#xA;                #UC-0070">
-           [UC-0070]
-           
-Buscar factura</a></td>
+Listar facturas</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
