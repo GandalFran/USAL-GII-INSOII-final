@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0007]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Iniciar Sesión con 5 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -34,11 +43,74 @@
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Universidad de Salamanca]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema] -> [Sistema de gestion de explotaciones agricola-ganaderas]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0001] Universidad de Salamanca]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0002] Crear Cuenta con 3 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
@@ -56,7 +128,16 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
@@ -65,12 +146,30 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -82,137 +181,353 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Universidad de Salamanca]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 (Se realiza el caso de uso Busc...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0001] Iniciar Sesión con 5 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0002] Crear Cuenta con 3 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0051]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema] -> [Sistema de gestion de explotaciones agricola-ganaderas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº2 (Se realiza el caso de uso Busc...) y nº1 (El sistema pide introducir la ...)]]></rem:description>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0059] Listar tiposCultivo) y nº7 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>14</rem:day>
+<rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0001] Universidad de Salamanca]]></rem:description>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0026] Buscar cultivo) y nº6 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0031] Alta producto) y nº6 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0021] Eliminar tipoCultivo) y nº3 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0026] Buscar cultivo) y nº7 ([UC-0059] Listar tiposCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0015] Buscar tipoSemilla) y nº5 ([UC-0058] Listar tiposSemilla)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0031] Alta producto) y nº5 ([UC-0029] Buscar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0024] Alta cultivo) y nº3 ([UC-0021] Eliminar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0024] Alta cultivo) y nº5 ([UC-0022] Buscar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0024] Alta cultivo) y nº7 ([UC-0099] Ver detalle tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº8 ([UC-0026] Buscar cultivo) y nº9 ([UC-0062] Listar cultivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0033] Buscar producto) y nº6 ([UC-0060] Listar tiposProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0029] Buscar tipoProducto) y nº5 ([UC-0060] Listar tiposProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº8 ([UC-0062] Listar cultivos) y nº9 ([UC-0099] Ver detalle tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº7 ([UC-0062] Listar cultivos) y nº8 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0014] Eliminar tipoSemilla) y nº3 ([UC-0016] Modificar tipoSemilla)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0022] Buscar tipoCultivo) y nº5 ([UC-0059] Listar tiposCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº8 ([UC-0063] Listar productos) y nº9 ([UC-0100] Ver detalle tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([UC-0024] Alta cultivo) y nº4 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0022] Buscar tipoCultivo) y nº5 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0033] Buscar producto) y nº7 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0058] Listar tiposSemilla) y nº5 ([UC-0016] Modificar tipoSemilla)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([UC-0015] Buscar tipoSemilla) y nº4 ([UC-0016] Modificar tipoSemilla)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0031] Alta producto) y nº3 ([UC-0028] Eliminiar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0024] Alta cultivo) y nº6 ([UC-0059] Listar tiposCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº7 ([UC-0063] Listar productos) y nº8 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([UC-0031] Alta producto) y nº4 ([UC-0060] Listar tiposProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº7 ([UC-0026] Buscar cultivo) y nº8 ([UC-0099] Ver detalle tipoCultivo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0029] Buscar tipoProducto) y nº5 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0031] Alta producto) y nº7 ([UC-0100] Ver detalle tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0028] Eliminiar tipoProducto) y nº3 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([UC-0060] Listar tiposProducto) y nº4 ([UC-0030] Modificar tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº7 ([UC-0033] Buscar producto) y nº8 ([UC-0100] Ver detalle tipoProducto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº8 ([UC-0033] Buscar producto) y nº9 ([UC-0063] Listar productos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>14</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0007]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [UC-0005] Editar producto con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -221,7 +536,34 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>19</rem:day>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -230,31 +572,22 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>17</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0006] Añadir producto con 4 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0014] Eliminar cultivo con 5 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] a con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [UC-0003] Eliminar cultivo con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>15</rem:day>
@@ -266,31 +599,202 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>17</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0002] Listar terrenos no cultivados este año con 4 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [UC-0008] Añadir cultivo con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>17</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0004] Listar historial de cultivos de un terreno con 2 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0005]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>17</rem:day>
+<rem:day>15</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0001] Listar terrenos cultivados este año con 6 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>15</rem:day>
@@ -316,67 +820,13 @@
 <rem:description><![CDATA[Eliminado el objeto [UC-0015] Ver produccion con 4 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>17</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0034]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0037]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [UC-0002] Listar terrenos no cultivados este año con 4 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -389,34 +839,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>17</rem:day>
@@ -428,13 +851,112 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0012] Listar semillas con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0034]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0006] Añadir producto con 4 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0014] Eliminar cultivo con 5 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0037]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Listar terrenos cultivados este año con 6 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>19</rem:day>
@@ -451,6 +973,24 @@
 <rem:description><![CDATA[Eliminado el objeto [UC-0016] Mostrar historial de cultivos de un terreno con 3 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] a con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
@@ -458,6 +998,24 @@
 <rem:day>17</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [UC-0007] Eliminar producto con 5 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -475,41 +1033,59 @@
 <rem:month>9</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0010] Listar terrenos con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [UC-0004] Listar historial de cultivos de un terreno con 2 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0010] Listar terrenos con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>17</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0012] Listar semillas con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0005] Editar producto con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -518,52 +1094,7 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0008] Añadir cultivo con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -572,7 +1103,16 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -581,16 +1121,61 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>14</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -599,16 +1184,7 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -617,88 +1193,7 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0003] Eliminar cultivo con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [OBJ-0005]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -707,52 +1202,7 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>15</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>14</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -761,13 +1211,49 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>15</rem:day>
+<rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>20</rem:day>
@@ -795,6 +1281,51 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>20</rem:day>
@@ -821,429 +1352,6 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -1289,10 +1397,163 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1307,6 +1568,51 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -1334,154 +1640,10 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0067] Copia de Eliminar producto con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1505,6 +1667,15 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -1515,33 +1686,6 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
@@ -1551,33 +1695,6 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>20</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
@@ -1596,6 +1713,114 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0067] Copia de Eliminar producto con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>20</rem:day>
@@ -1616,13 +1841,76 @@
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
 <rem:day>20</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
@@ -1632,6 +1920,114 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>24</rem:day>
@@ -1649,88 +2045,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>24</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>24</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
@@ -1748,28 +2063,28 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1784,25 +2099,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>23</rem:day>
@@ -1820,7 +2117,34 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1832,7 +2156,7 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>24</rem:day>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1841,43 +2165,7 @@
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>24</rem:day>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1892,16 +2180,34 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>23</rem:day>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1911,6 +2217,15 @@
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -1937,168 +2252,6 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -2117,16 +2270,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -2153,7 +2297,97 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
@@ -2180,10 +2414,100 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -2197,6 +2521,15 @@
 <rem:description><![CDATA[Eliminado el objeto [SEC-0032] Maquinaria con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0034] Silos con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
@@ -2207,55 +2540,10 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -2266,7 +2554,25 @@
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0041] Terreno agricola con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0028] Gestion de instalaciones, materiales y trabajos con 3 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -2288,6 +2594,24 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -2297,34 +2621,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
@@ -2342,28 +2639,10 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -2378,7 +2657,79 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
@@ -2392,7 +2743,7 @@
 <rem:month>9</rem:month>
 <rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0034] Silos con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0041] Terreno agricola con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -2414,6 +2765,96 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
@@ -2426,423 +2867,306 @@
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>25</rem:day>
+<rem:day>26</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([UC-0033] Buscar producto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([UC-0062] Listar cultivos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0028] Gestion de instalaciones, materiales y trabajos con 3 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 (Se realiza el caso de uso Busc...) y nº2 (Actor Administrador introduce ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0013] Alta tipoSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº5 (Actor Administrador selecciona...) y nº4 (Si se introdujo una cantidad v...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0021] Eliminar tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº6 (Se realiza el caso de uso Busc...) y nº5 (Se realiza el caso de uso Alta...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0024] Alta cultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 (Se realiza el caso de uso Busc...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0014] Eliminar tipoSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº4 (Actor Administrador selecciona...) y nº3 (Actor Administrador introduce ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0022] Buscar tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº5 (Se realiza el caso de uso Busc...) y nº4 (El sistema muestra un mensaje ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº9 ([UC-0100] Ver detalle tipoProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] de la excepción nº1 del paso #5 actualizada: [vuelve a pedir una cantidad.] -> []]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([UC-0016] Modificar tipoSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº4 (Se realiza el caso de uso Busc...) y nº3 (Si se introdujo una cantidad v...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0029] Buscar tipoProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] de la excepción nº2 del paso #5 actualizada: [] -> [aborta la operación]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([UC-0098] Ver detalle tipoSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] de la excepción nº1 del paso #5 actualizada: [] -> [pidiendo de nuevo una cantidad.]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([UC-0026] Buscar cultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] de la excepción nº1 del paso #5 actualizada: [pidiendo de nuevo una cantidad.] -> [pide una nueva cantidad]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0028] Eliminiar tipoProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 (Actor Administrador selecciona...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0058] Listar tiposSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº7 (Se realiza el caso de uso Busc...) y nº6 (El sistema muestra un mensaje ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0031] Alta producto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº4 (Se realiza el caso de uso Busc...) y nº3 (Si se introdujo una cantidad v...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([UC-0059] Listar tiposCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº6 (Se realiza el caso de uso Busc...) y nº5 (Si se introdujo una cantidad v...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0027] Alta tipoProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº6 (Actor Administrador selecciona...) y nº5 (El sistema muestra un mensaje ...)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Semilla] -> [Semillas]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 (Se realiza el caso de uso Busc...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0020] Alta tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº5 (Se realiza el caso de uso Busc...) y nº4 (Actor Administrador introduce ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº7 ([UC-0063] Listar productos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] de la excepción nº2 del paso #5 actualizada: [no hace nada y el caso de uso queda sin efecto.] -> []]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 ([UC-0060] Listar tiposProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº6 (Se realiza el caso de uso Busc...) y nº5 (Si si se pulsa el botón "Alta ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº8 ([UC-0023] Modificar tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº4 (Se realiza el caso de uso Busc...) y nº3 (El sistema pide introducir la ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº10 ([UC-0065] Ver detalle cultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 (Se realiza el caso de uso Busc...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº8 ([UC-0030] Modificar tipoProducto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0049</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 (Se realiza el caso de uso Busc...) y nº2 (Actor Administrador selecciona...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº9 ([UC-0099] Ver detalle tipoCultivo)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº7 (Se realiza el caso de uso Busc...) y nº6 (Si se pulsa el botón "Buscar s...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº7 ([UC-0064] Ver detalle semilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº5 (Se realiza el caso de uso Busc...) y nº4 (El sistema muestra un mensaje ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº10 ([UC-0066] Ver detalle producto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
+<rem:owner>SEC-0048</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº2 (Se realiza el caso de uso Busc...) y nº1 (El sistema pide introducir la ...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº7 (Actor Administrador selecciona...) y nº6 (Se realiza el caso de uso Alta...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 (Actor Administrador selecciona...) y nº2 (El sistema pide introducir la ...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº2 (Se realiza el caso de uso Busc...) y nº1 (Se realiza el caso de uso Busc...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0057</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº8 (Se realiza el caso de uso Busc...) y nº7 (Se realiza el caso de uso Alta...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 (Se realiza el caso de uso Busc...) y nº2 (Actor Administrador introduce ...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0015] Buscar tipoSemilla)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -2861,145 +3185,10 @@
 <rem:day>26</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0056</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 (Si se pulsa el botón "Buscar t...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0047</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [El sistema muestra un mensaje indicando que el proceso de eliminado se ha realizado con éxito.] -> [muestra un mensaje indicando que el proceso de eliminado se ha realizado con éxito.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 (Si el usuario pulsa el botón "...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº6 (Actor Administrador selecciona...) y nº5 (El sistema muestra un mensaje ...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº8 (Actor Administrador selecciona...) y nº7 (Si se pulsa el botón "Buscar s...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Condition] del hijo nº4 actualizada: [el usuario pulsa sobre "Alta proveedor"] -> [el usuario pulsa el botón "Alta proveedor"]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 (Si el usuario pulsa el botón "...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 (Si el usuario pulsa sobre "Alt...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Condition] del hijo nº4 actualizada: [el usuario pulsa el botón "Alta proveedor"] -> [el usuario pulsa el botón "Alta proveedor" sobre un proveedor seleccionado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [el usuario pulsa el botón "Listar proveedores"]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 (El sistema recupera toda la in...)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
-<rem:year>2018</rem:year>
-<rem:month>9</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº3 (Actor Administrador selecciona...) y nº2 (El sistema pide introducir la ...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>UC-0134</rem:owner><rem:date>
+<rem:owner>SEC-0050</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
@@ -3007,40 +3196,184 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº4 (Actor Administrador selecciona...) y nº3 (Actor Administrador introduce ...)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 (Actor Administrador selecciona...)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº5 (Actor Administrador selecciona...) y nº4 (Si se introdujo una cantidad v...)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0037</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2018</rem:year>
 <rem:month>9</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Intercambiados hijos nº7 (Actor Administrador selecciona...) y nº6 (Si si se pulsa el botón "Alta ...)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2018</rem:year>
+<rem:month>9</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
