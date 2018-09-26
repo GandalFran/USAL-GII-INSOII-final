@@ -232,6 +232,20 @@ Gestión de terrenos</a>
 Gestión de maquinarias</a>
 </td>
 </tr>
+<tr><td /><td />
+<td albgn="left" valign="top">3.5.6 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0046">
+Gestión trabajos</a>
+</td>
+</tr>
+<tr><td /><td />
+<td albgn="left" valign="top">3.5.7 </td>
+<td align="left" valign="top" width="100%">
+<a href="#SEC-0047">
+Gestión silos</a>
+</td>
+</tr>
 <tr><td />
 <td align="left" valign="top">3.6 </td>
 <td align="left" valign="top" width="100%" colspan="2">
@@ -1821,10 +1835,7 @@ Alta tipoCultivo</a>, <a href="&#xA;                #UC-0051">
 Dar alta proveedor</a>, <a href="&#xA;                #UC-0053">
            [UC-0053]
            
-Modificar proveedor</a>, <a href="&#xA;                #UC-0067">
-           [UC-0067]
-           
-Generar pienso - FALTAN REFERENCIAS A SILOS</a></td>
+Modificar proveedor</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -4911,7 +4922,7 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0067">
            [UC-0067]
            
-Generar pienso - FALTAN REFERENCIAS A SILOS</a></td>
+Generar pienso</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -6448,7 +6459,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0067</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Generar pienso - FALTAN REFERENCIAS A SILOS</th>
+Generar pienso</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -6540,21 +6551,21 @@ escoge los productos necesarios de los listados para hacer el pienso</em>
 se quiere crear un nuevo silo para guardar el pienso,
                                 </em>
     se realiza el caso de uso
-<a href="&#xA;            #UC-0013">
-Alta tipoSemilla
-        (UC-0013)
+<a href="&#xA;            #UC-0128">
+Alta silo
+        (UC-0128)
     </a></td>
 </tr>
 <tr>
 <a name="STP-0536" />
 <td align="center" valign="top">5</td>
 <td>Si<em>
-Si no se quiere crear un nuevo silo sino tomar uno de los ya creados,
+no se quiere crear un nuevo silo sino tomar uno de los ya creados,
                                 </em>
     se realiza el caso de uso
-<a href="&#xA;            #UC-0013">
-Alta tipoSemilla
-        (UC-0013)
+<a href="&#xA;            #UC-0130">
+Buscar silo
+        (UC-0130)
     </a></td>
 </tr>
 <tr>
@@ -9884,7 +9895,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario pulsa el botón "Buscar empleado".</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0127">
+           [UC-0127]
+           
+Añadir trabajo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -16166,7 +16181,10 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0101">
            [UC-0101]
            
-Listar terrenos agrícolas</a></td>
+Listar terrenos agrícolas</a>, <a href="&#xA;                #UC-0127">
+           [UC-0127]
+           
+Añadir trabajo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -17549,7 +17567,10 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0116">
            [UC-0116]
            
-Listar averías</a></td>
+Listar averías</a>, <a href="&#xA;                #UC-0124">
+           [UC-0124]
+           
+Terminar trabajo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -18777,7 +18798,10 @@ Davinia Carolina Zato Dominguez</a>
 <a href="&#xA;                #UC-0120">
            [UC-0120]
            
-Listar maquinarias</a></td>
+Listar maquinarias</a>, <a href="&#xA;                #UC-0127">
+           [UC-0127]
+           
+Añadir trabajo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -18919,7 +18943,11 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 pulsa en "Listar maquinarias"</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0122">
+           [UC-0122]
+           
+Mostrar detalle trabajo</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -19036,6 +19064,2147 @@ veces por
 <tr>
 <th align="left" valign="top">Estado</th>
 <td align="left" valign="top" colspan="2">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0046" />
+<h3 align="left">3.5.6 
+Gestión trabajos</h3><a name="UC-0121" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0121</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar trabajo por ID</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario pulsa "Buscar trabajo por ID"</em>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0125">
+           [UC-0125]
+           
+Listar trabajos</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0545" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzca el ID del trabajo deseado</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0546" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe el ID del trabajo a buscar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0547" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el botón "Buscar"</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0548" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra una lista con los resultados de la búsqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0549" />
+<td align="center" valign="top">5</td>
+<td>Si<em>
+el usuario pulsa "Mostrar detalle trabajo" ,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0122">
+Mostrar detalle trabajo
+        (UC-0122)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Aparece una lista con los trabajos que cumplen con el filtro de la búsqueda</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0122" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0122</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Mostrar detalle trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0121">
+           [UC-0121]
+           
+Buscar trabajo por ID</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0550" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra toda la información relacionada con el trabajo seleccionado</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0551" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario quiere eliminar el trabajo seleccionado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0123">
+Eliminar trabajo
+        (UC-0123)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0552" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario quiere terminar el trabajo seleccionado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0124">
+Terminar trabajo
+        (UC-0124)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0553" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+el usuario quiere listar las maquinarias asociadas al trabajo seleccionado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0120">
+Listar maquinarias
+        (UC-0120)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0123" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0123</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0122">
+           [UC-0122]
+           
+Mostrar detalle trabajo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El usuario ha buscado un trabajo y lo tiene seleccionado.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="3">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0554" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+lanza un mensaje de confirmación sobre la eliminación.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0555" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario hace click en "Eliminar",
+                                </em>el
+     
+    sistema<em>
+elimina el trabajo seleccionado de la base de datos</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0074" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario hace click en "Cancelar",
+                            </em>el
+     
+    sistema<em>
+no hace nada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0124" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0124</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Terminar trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0122">
+           [UC-0122]
+           
+Mostrar detalle trabajo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El usuario ha buscado un trabajo y lo tiene seleccionado</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0556" />
+<td align="center" valign="top">1</td>
+<td>Si<em>
+el usuario hace click en "Registrar avería",
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0115">
+Registrar avería
+        (UC-0115)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0557" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+lanza un mensaje de confirmación sobre la terminación del trabajo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0558" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario hace click en "Terminar trabajo",
+                                </em>el
+     
+    sistema<em>
+cierra el trabajo y lo marca como terminado</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0075" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario hace click en "Cancelar",
+                            </em>el
+     
+    sistema<em>
+no hace nada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0125" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0125</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Listar trabajos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario hace click en "Listar trabajos"</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0559" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra en una lista todos los trabajos guardados en el mismo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0560" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario quiere buscar trabajos,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0126">
+Buscar trabajo
+        (UC-0126)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0561" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario quiere buscar un trabajo por ID,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0121">
+Buscar trabajo por ID
+        (UC-0121)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0562" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+el usuario quiere añadir un trabajo,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0127">
+Añadir trabajo
+        (UC-0127)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0126" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0126</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0125">
+           [UC-0125]
+           
+Listar trabajos</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0563" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras claves para la búsqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0564" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0565" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el botón "Buscar"</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0566" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+devuelve los elementos que coincidan con las palabras claves de la búsqueda</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0127" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0127</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Añadir trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0125">
+           [UC-0125]
+           
+Listar trabajos</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0567" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+solicitar añadir un trabajo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0568" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+muestra una interfaz gráfica para rellenar la información del nuevo trabajo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0569" />
+<td align="center" valign="top">3</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0119">
+Buscar maquinaria
+        (UC-0119)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0570" />
+<td align="center" valign="top">4</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0044">
+Buscar empleado
+        (UC-0044)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0571" />
+<td align="center" valign="top">5</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0106">
+Buscar terreno agrícola
+        (UC-0106)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0572" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+muestra una interfaz con la vista previa del nuevo trabajo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0573" />
+<td align="center" valign="top">7</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+hace click en "Añadir"</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0574" />
+<td align="center" valign="top">8</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje diciendo que el trabajo se ha añadido con éxito</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0076" />
+<td align="center" valign="top">7</td>
+<td>Si<em>
+el usuario hace click en "Cancelar" ,
+                            </em>el
+     
+    sistema<em>
+no hace nada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0047" />
+<h3 align="left">3.5.7 
+Gestión silos</h3><a name="UC-0128" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0128</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Alta silo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0067">
+           [UC-0067]
+           
+Generar pienso</a>, <a href="&#xA;                #UC-0129">
+           [UC-0129]
+           
+Listar silos</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0575" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos a rellenar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0576" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+rellena los datos solicitados</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0577" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje pidiendo confirmación para guardar el nuevo silo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0578" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+el usuario selecciona "Sí" ,
+                                </em>el
+     
+    sistema<em>
+guarda la información sobre el nuevo silo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0579" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de guardado se ha realizado con éxito</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Se ha añadido un nuevo silo</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0077" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+el usuario selecciona la opción "No",
+                            </em>el
+     
+    sistema<em>
+muestra un mensaje diciendo que el nuevo silo no será guardado</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0129" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0129</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Listar silos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+el usuario hace click en "Listar silos"</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0580" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra en una lista todos los silos guardados en el mismo</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0581" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario quiere dar de alta un nuevo silo,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0128">
+Alta silo
+        (UC-0128)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0582" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario quiere buscar un silo,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0130">
+Buscar silo
+        (UC-0130)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0130" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0130</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Buscar silo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0067">
+           [UC-0067]
+           
+Generar pienso</a>, <a href="&#xA;                #UC-0129">
+           [UC-0129]
+           
+Listar silos</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0583" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+despliega un campo para que se introduzcan las palabras claves para la búsqueda</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0584" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+escribe en el formulario las palabras a buscar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0585" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+pulsa el botón "Buscar"</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0586" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+devuelve los elementos que coincidan con las palabras claves de la búsqueda</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0131" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0131</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Ver detalle silo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<font color="red">?</font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="4">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0587" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra toda la información relacionada con el silo seleccionado</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0588" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario quiere eliminar el silo seleccionado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0132">
+Eliminar silo
+        (UC-0132)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0589" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+el usuario quiere modificar el silo seleccionado,
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0133">
+Modificar silo
+        (UC-0133)
+    </a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0132" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0132</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar silo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0131">
+           [UC-0131]
+           
+Ver detalle silo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El usuario ha buscado un silo y lo tiene seleccionado.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="3">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0590" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+lanza un mensaje de confirmación sobre la eliminación.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0591" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario hace click en "Eliminar",
+                                </em>el
+     
+    sistema<em>
+elimina el trabajo seleccionado de la base de datos</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+-</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0078" />
+<td align="center" valign="top">2</td>
+<td>Si<em>
+el usuario hace click en "Cancelar",
+                            </em>el
+     
+    sistema<em>
+no hace nada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0133" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0133</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Modificar silo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0004">
+Manuel Salgado de la Iglesia</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0131">
+           [UC-0131]
+           
+Ver detalle silo</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El usuario ha buscado un silo y lo tiene seleccionado.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0592" />
+<td align="center" valign="top">1</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los datos disponibles para que sean modificados</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0593" />
+<td align="center" valign="top">2</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+cambia los datos</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0594" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+actualiza la información que tiene guardada con lo introducido en el formulario</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0595" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje indicando que el proceso de modificado se ha realizado con éxito</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+La información sobre el silo ha sido modificada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
