@@ -5113,6 +5113,192 @@ Ninguno</td>
 </tr>
 </table>
 <p />
+<a name="UC-0135" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0135</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Recoger cosecha</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/09/2018 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0005">
+Xuzeng Mao</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0006">
+Davinia Carolina Zato Dominguez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso abstracto durante la realización de los siguientes casos de uso: 
+<a href="&#xA;                #UC-0108">
+           [UC-0108]
+           
+Ver detalle terreno agrícola</a></td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+El sistema tiene que tener un ID de un terreno agrícola y éste, debe tener un cultivo activo</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0609" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+solicita recoger la cosecha</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0610" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+solicita la confirmación de recoger la cosecha</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0611" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
+    </a>
+<em>
+confirma la recogida de la cosecha</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0613" />
+<td align="center" valign="top">4</td>
+<td>
+    Se realiza el caso de uso
+<a href="&#xA;            #UC-0031">
+Alta producto
+        (UC-0031)
+    </a></td>
+</tr>
+<tr>
+<a name="STP-0614" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+cambia el estado del cultivo de "Activo" a "Recogido"</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+Si no se cancela, se guarda en la base de datos todos los cambios relacionados al recoger la cosecha.</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0088" />
+<td align="center" valign="top">3</td>
+<td>Si<em>
+pulsa en "Cancelar",
+                            </em>el
+     
+    sistema<em>
+muestra un mensaje de que la recogida de la cosecha ha sido cancelada</em>,
+                            a continuación este caso de uso
+                             
+                            <em>queda sin efecto</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="3">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">2</td>
+<td>
+1
+
+             
+            segundo(s)</td>
+</tr>
+<tr>
+<td align="center" valign="top">5</td>
+<td>
+1
+
+             
+            segundo(s)</td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+1
+veces por
+                         
+                        día(s)</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">en construcción</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">alta</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+En el paso 4, se realizará el caso de uso "Alta producto" tantas veces como productos haya que añadir</td>
+</tr>
+</table>
+<p />
 <a name="SEC-0050" />
 <h5 align="left">3.5.1.1.3 
 Productos</h5><a name="UC-0027" />
@@ -5475,7 +5661,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0028</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Eliminiar tipoProducto</th>
+Eliminar tipoProducto</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -6072,7 +6258,7 @@ se pulsa el boton "Eliminar" sobre un tipo de producto de los listados,
                                 </em>
     se realiza el caso de uso
 <a href="&#xA;            #UC-0028">
-Eliminiar tipoProducto
+Eliminar tipoProducto
         (UC-0028)
     </a></td>
 </tr>
@@ -6195,8 +6381,10 @@ Davinia Carolina Zato Dominguez</a>
     El sistema deberá comportarse tal como se describe en el siguiente
 
     caso de uso abstracto durante la realización de los siguientes casos de uso: 
-<font color="red">?</font>
-</td>
+<a href="&#xA;                #UC-0135">
+           [UC-0135]
+           
+Recoger cosecha</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
@@ -16879,11 +17067,12 @@ Eliminar terreno agrícola
 <td align="center" valign="top">5</td>
 <td>Si<em>
 pulsa en "Listar trabajos",
-                                </em>el
-     
-    sistema<em>
-ATENCIIOOOOON!!!! EXTENDOS A LISTAR TRABAJOS</em>
-</td>
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0125">
+Listar trabajos
+        (UC-0125)
+    </a></td>
 </tr>
 <tr>
 <a name="STP-0426" />
@@ -16914,11 +17103,12 @@ Alta tipoCultivo
 <td align="center" valign="top">8</td>
 <td>Si<em>
 pulsa en "Recoger cosecha",
-                                </em>el
-     
-    sistema<em>
-ATENCIOOON!!!! EXTEND A RECOGER COSECHAAAA</em>
-</td>
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0135">
+Recoger cosecha
+        (UC-0135)
+    </a></td>
 </tr>
 <tr>
 <a name="STP-0429" />
@@ -17002,7 +17192,9 @@ Ninguno</td>
 <p />
 <a name="SEC-0045" />
 <h3 align="left">3.5.5 
-Gestión de maquinarias</h3><a name="UC-0111" />
+Gestión de maquinarias</h3><a name="SEC-0051" />
+<h4 align="left">3.5.5.1 
+Averías</h4><a name="UC-0111" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0111</th>
@@ -17276,7 +17468,7 @@ Ver detalle avería</a></td>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-El sistema tiene que tener un ID de una avería y es una avería activa</td>
+El sistema tiene que tener un ID de una avería y es una avería activa. Además este caso de uso solo se muestra al actor administrador.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="6">Secuencia normal</th>
@@ -17286,8 +17478,8 @@ El sistema tiene que tener un ID de una avería y es una avería activa</td>
 <tr>
 <a name="STP-0449" />
 <td align="center" valign="top">1</td>
-<td>El actor<a href="#ACT-0004" title="Este actor representa empleado que se dedica a realizar trabajos en los terrenos">
-Empleado (ACT-0004)
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
     </a>
 <em>
 solicita la eliminación de una averia</em>
@@ -17305,8 +17497,8 @@ muestra un mensaje de que si confirma la eliminación, se borrará la avería del s
 <tr>
 <a name="STP-0453" />
 <td align="center" valign="top">3</td>
-<td>El actor<a href="#ACT-0004" title="Este actor representa empleado que se dedica a realizar trabajos en los terrenos">
-Empleado (ACT-0004)
+<td>El actor<a href="#ACT-0001" title="Este actor representa el administrador del sistema, el cual tiene todos los privilegios en el mismo.">
+Administrador (ACT-0001)
     </a>
 <em>
 acepta la eliminación de la avería</em>
@@ -18225,7 +18417,9 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0110" />
+<a name="SEC-0052" />
+<h4 align="left">3.5.5.2 
+Maquinarias</h4><a name="UC-0110" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0110</th>
@@ -18684,11 +18878,12 @@ muestra los detalles de la maquinaria</em>
 <td align="center" valign="top">3</td>
 <td>Si<em>
 pulsa en "Listar trabajos",
-                                </em>el
-     
-    sistema<em>
-ATENCIIIIOOOONNN!!!!! EXTEND A LISTAR TRABAJOS</em>
-</td>
+                                </em>
+    se realiza el caso de uso
+<a href="&#xA;            #UC-0125">
+Listar trabajos
+        (UC-0125)
+    </a></td>
 </tr>
 <tr>
 <a name="STP-0482" />
@@ -20034,7 +20229,14 @@ Davinia Carolina Zato Dominguez</a>
     caso de uso cuando
 <em>
 el usuario hace click en "Listar trabajos"</em>
-</td>
+    o durante la realización de los siguientes casos de uso:
+<a href="&#xA;                #UC-0108">
+           [UC-0108]
+           
+Ver detalle terreno agrícola</a>, <a href="&#xA;                #UC-0117">
+           [UC-0117]
+           
+Ver detalle maquinaria</a></td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
