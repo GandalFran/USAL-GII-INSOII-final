@@ -1,0 +1,10 @@
+UPPER MAIN MENU LAYER
+=====================
+- Journal singleton
+- MainManuUI ---|> NotificableUI (Add something less intrusive than popups)
+- NotificationEnum
+
+DATABASE UTILS
+==============
+- commit, rollback, query and nonquery operations needed
+
